@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --bg-card-hover: #1a1a1a;
+  --border-color: #222222;
+  --text-primary: #e8e8e8;
+  --text-secondary: #888888;
+  --text-muted: #555555;
+  --accent-blue: #0ea5e9;
+  --accent-blue-glow: rgba(14, 165, 233, 0.15);
+  --accent-red: #ef4444;
+  --accent-red-glow: rgba(239, 68, 68, 0.15);
+  --accent-green: #22c55e;
+  --accent-amber: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #111;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Glow effects */
+.glow-red {
+  box-shadow: 0 0 20px var(--accent-red-glow), 0 0 40px var(--accent-red-glow), inset 0 0 20px var(--accent-red-glow);
+  border-color: var(--accent-red) !important;
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px var(--accent-blue-glow), 0 0 40px var(--accent-blue-glow), inset 0 0 20px var(--accent-blue-glow);
+  border-color: var(--accent-blue) !important;
+}
+
+/* Pulse animation for warnings */
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 20px var(--accent-red-glow); }
+  50% { box-shadow: 0 0 40px var(--accent-red-glow), 0 0 60px var(--accent-red-glow); }
+}
+
+@keyframes pulse-blue {
+  0%, 100% { box-shadow: 0 0 15px var(--accent-blue-glow); }
+  50% { box-shadow: 0 0 30px var(--accent-blue-glow), 0 0 50px var(--accent-blue-glow); }
+}
+
+.animate-pulse-red {
+  animation: pulse-red 2s ease-in-out infinite;
+}
+
+.animate-pulse-blue {
+  animation: pulse-blue 2s ease-in-out infinite;
+}
