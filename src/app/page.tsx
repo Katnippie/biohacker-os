@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback, useEffect } from "react";
+import Link from "next/link";
 import compounds from "../../lib/data.json";
 import { Compound, StackAlert } from "@/lib/types";
 import { analyzeStack } from "@/lib/safety-engine";
@@ -672,28 +673,42 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Stack toggle */}
-            <button
-              onClick={() => setShowStackPanel(!showStackPanel)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-xs font-mono transition-all cursor-pointer ${
-                stack.size > 0
-                  ? "bg-sky-500/10 border-sky-500/30 text-sky-400"
-                  : "border-[#2a2a2a] text-[#666] hover:border-[#444]"
-              }`}
-            >
-              <StackIcon />
-              <span>STACK</span>
-              {stack.size > 0 && (
-                <span className="px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-400 text-[10px]">
-                  {stack.size}
-                </span>
-              )}
-              {criticalAlerts.length > 0 && (
-                <span className="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400 text-[10px] animate-pulse">
-                  {criticalAlerts.length} !!
-                </span>
-              )}
-            </button>
+            <div className="flex items-center gap-2">
+              {/* Lab link */}
+              <Link
+                href="/lab"
+                className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg border border-[#2a2a2a] hover:border-sky-500/40 text-[#888] hover:text-sky-400 text-xs font-mono transition-all cursor-pointer"
+                title="Reconstitution calculator & inventory"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 3h6M10 3v6.5L4.5 18a2 2 0 001.7 3h11.6a2 2 0 001.7-3L14 9.5V3" />
+                </svg>
+                <span>LAB</span>
+              </Link>
+
+              {/* Stack toggle */}
+              <button
+                onClick={() => setShowStackPanel(!showStackPanel)}
+                className={`flex items-center gap-2 px-3 py-2 rounded-lg border text-xs font-mono transition-all cursor-pointer ${
+                  stack.size > 0
+                    ? "bg-sky-500/10 border-sky-500/30 text-sky-400"
+                    : "border-[#2a2a2a] text-[#666] hover:border-[#444]"
+                }`}
+              >
+                <StackIcon />
+                <span>STACK</span>
+                {stack.size > 0 && (
+                  <span className="px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-400 text-[10px]">
+                    {stack.size}
+                  </span>
+                )}
+                {criticalAlerts.length > 0 && (
+                  <span className="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400 text-[10px] animate-pulse">
+                    {criticalAlerts.length} !!
+                  </span>
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </header>
