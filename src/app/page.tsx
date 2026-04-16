@@ -76,6 +76,57 @@ function CheckIcon() {
   );
 }
 
+// ─── Confidence badge ───────────────────────────────────────────────
+function ConfidenceBadge({
+  score,
+  size = "sm",
+}: {
+  score: "High" | "Medium" | "Low";
+  size?: "sm" | "md";
+}) {
+  const styles: Record<string, string> = {
+    High: "bg-emerald-500/15 text-emerald-400 border-emerald-500/40",
+    Medium: "bg-amber-500/15 text-amber-400 border-amber-500/40",
+    Low: "bg-red-500/15 text-red-400 border-red-500/40",
+  };
+  const dot: Record<string, string> = {
+    High: "bg-emerald-400",
+    Medium: "bg-amber-400",
+    Low: "bg-red-400",
+  };
+  const pad = size === "md" ? "px-2 py-1 text-[10px]" : "px-1.5 py-0.5 text-[9px]";
+  return (
+    <span
+      className={`inline-flex items-center gap-1 font-mono uppercase tracking-wider rounded border ${pad} ${styles[score]}`}
+      title={`Evidence confidence: ${score}`}
+    >
+      <span className={`w-1.5 h-1.5 rounded-full ${dot[score]}`} />
+      {score}
+    </span>
+  );
+}
+
+// ─── Citation link ──────────────────────────────────────────────────
+function CitationLink({ citation }: { citation: string }) {
+  const isUrl = /^https?:\/\//i.test(citation);
+  if (isUrl) {
+    return (
+      <a
+        href={citation}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="text-[10px] font-mono text-sky-400/80 hover:text-sky-400 underline decoration-dotted underline-offset-2 transition-colors"
+      >
+        cite ↗
+      </a>
+    );
+  }
+  return (
+    <span className="text-[10px] font-mono text-[#555] italic">cite: {citation}</span>
+  );
+}
+
 // ─── Category badge colors ──────────────────────────────────────────
 function getCategoryColor(category: string): string {
   const map: Record<string, string> = {
@@ -141,9 +192,12 @@ function CompoundCard({
       {/* Header */}
       <div className="flex items-start justify-between mb-3">
         <div className="flex-1 min-w-0 cursor-pointer" onClick={onExpand}>
-          <h3 className="text-sm font-semibold text-[#e8e8e8] truncate leading-tight">
-            {compound.compoundName}
-          </h3>
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="text-sm font-semibold text-[#e8e8e8] truncate leading-tight">
+              {compound.compoundName}
+            </h3>
+            <ConfidenceBadge score={compound.confidenceScore} />
+          </div>
           <span
             className={`inline-block mt-1.5 px-2 py-0.5 text-[10px] font-mono rounded border ${getCategoryColor(
               compound.category
@@ -194,13 +248,16 @@ function CompoundCard({
         )}
       </div>
 
-      {/* Expand indicator */}
-      <button
-        onClick={onExpand}
-        className="text-[10px] text-[#555] hover:text-sky-400 transition-colors cursor-pointer font-mono"
-      >
-        Details →
-      </button>
+      {/* Footer row: details + citation */}
+      <div className="flex items-center justify-between">
+        <button
+          onClick={onExpand}
+          className="text-[10px] text-[#555] hover:text-sky-400 transition-colors cursor-pointer font-mono"
+        >
+          Details →
+        </button>
+        <CitationLink citation={compound.citation} />
+      </div>
     </div>
   );
 }
@@ -232,14 +289,20 @@ function CompoundModal({
         </button>
 
         {/* Header */}
-        <h2 className="text-xl font-bold mb-1">{compound.compoundName}</h2>
-        <span
-          className={`inline-block px-2.5 py-1 text-xs font-mono rounded border ${getCategoryColor(
-            compound.category
-          )}`}
-        >
-          {compound.category}
-        </span>
+        <div className="flex items-start justify-between gap-3 mb-1 pr-8">
+          <h2 className="text-xl font-bold">{compound.compoundName}</h2>
+          <ConfidenceBadge score={compound.confidenceScore} size="md" />
+        </div>
+        <div className="flex items-center gap-2 flex-wrap">
+          <span
+            className={`inline-block px-2.5 py-1 text-xs font-mono rounded border ${getCategoryColor(
+              compound.category
+            )}`}
+          >
+            {compound.category}
+          </span>
+          <CitationLink citation={compound.citation} />
+        </div>
 
         {/* Stats row */}
         <div className="flex gap-6 mt-4 mb-6 pb-4 border-b border-[#222]">
@@ -660,6 +723,29 @@ export default function Home() {
             )}
           </div>
 
+          {/* Compound Missing? Growth loop */}
+          <a
+            href="mailto:admin@stacksafer.org?subject=Compound%20Request"
+            className="group mb-5 flex items-center justify-between gap-3 px-4 py-2.5 bg-[#0f0f0f] hover:bg-[#141414] border border-[#222] hover:border-sky-500/40 rounded-lg transition-all duration-200 cursor-pointer"
+          >
+            <div className="flex items-center gap-3 min-w-0">
+              <span className="text-[#555] group-hover:text-sky-400 transition-colors">
+                <PlusIcon />
+              </span>
+              <div className="min-w-0">
+                <p className="text-xs font-semibold text-[#ccc] group-hover:text-white transition-colors">
+                  Compound Missing?
+                </p>
+                <p className="text-[10px] font-mono text-[#666] group-hover:text-[#888] transition-colors truncate">
+                  Request an addition to the database
+                </p>
+              </div>
+            </div>
+            <span className="text-[10px] font-mono text-[#444] group-hover:text-sky-400 transition-colors flex-shrink-0">
+              →
+            </span>
+          </a>
+
           {/* Filter Toggles */}
           <div className="mb-6 space-y-3">
             {/* Goals */}
@@ -765,6 +851,20 @@ export default function Home() {
                 </button>
               </div>
 
+              {/* Dosage disclaimer — persistent above the Analysis Engine */}
+              <div className="mb-4 p-3 bg-[#0f0f0f] border border-amber-500/25 rounded-lg">
+                <div className="flex items-start gap-2">
+                  <span className="text-[10px] font-mono uppercase tracking-widest text-amber-400 whitespace-nowrap">
+                    Note
+                  </span>
+                  <p className="text-[11px] text-[#aaa] leading-relaxed">
+                    Safety flags are calculated based on standard clinical dosages.
+                    Extreme dosing or chronic accumulation fundamentally alters
+                    interaction profiles.
+                  </p>
+                </div>
+              </div>
+
               {stack.size === 0 ? (
                 <div className="text-center py-12">
                   <p className="text-[#444] font-mono text-xs">
@@ -852,6 +952,29 @@ export default function Home() {
           </aside>
         )}
       </div>
+
+      {/* ─── Global Footer ─── */}
+      <footer className="border-t border-[#1a1a1a] bg-[#0a0a0a] mt-auto">
+        <div className="max-w-[1600px] mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-[11px] font-mono text-[#666] tracking-wide text-center sm:text-left">
+            StackSafer is a community-driven harm reduction tool.
+          </p>
+          <a
+            href="#"
+            className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#111] hover:bg-[#161616] border border-[#2a2a2a] hover:border-sky-500/40 rounded-md text-[11px] font-mono text-[#aaa] hover:text-sky-400 transition-all duration-200 cursor-pointer"
+          >
+            <svg
+              className="w-3.5 h-3.5"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.72-4.04-1.61-4.04-1.61-.55-1.38-1.34-1.75-1.34-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.61-.02 2.9-.02 3.3 0 .32.22.7.82.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5Z" />
+            </svg>
+            View Source / Contribute on GitHub
+          </a>
+        </div>
+      </footer>
 
       {/* ─── Detail Modal ─── */}
       {expandedCompound && (

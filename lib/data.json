@@ -4,1499 +4,3777 @@
     "compoundName": "BPC-157",
     "category": "Peptide",
     "halfLifeHours": 4,
-    "administrationRoute": ["Subcutaneous Injection", "Oral"],
-    "supportsGoals": ["Gut Healing", "Tissue Repair", "Tendon Recovery", "Anti-Inflammation"],
-    "treatsSymptoms": ["Leaky Gut", "Joint Pain", "Tendinitis", "Muscle Tears"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Gut Healing",
+      "Tissue Repair",
+      "Tendon Recovery",
+      "Anti-Inflammation"
+    ],
+    "treatsSymptoms": [
+      "Leaky Gut",
+      "Joint Pain",
+      "Tendinitis",
+      "Muscle Tears"
+    ],
     "contraindications": "May promote tumor growth in active cancer. Avoid with anticoagulants.",
     "timingRules": "Administer on empty stomach. Split dose AM/PM for sustained effect.",
-    "knownSynergies": ["TB-500", "GHK-Cu", "Collagen Peptides"]
+    "knownSynergies": [
+      "TB-500",
+      "GHK-Cu",
+      "Collagen Peptides"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-002",
     "compoundName": "TB-500",
     "category": "Peptide",
     "halfLifeHours": 72,
-    "administrationRoute": ["Subcutaneous Injection", "Intramuscular Injection"],
-    "supportsGoals": ["Wound Healing", "Tissue Repair", "Cardiac Recovery", "Hair Regrowth"],
-    "treatsSymptoms": ["Chronic Wounds", "Muscle Injury", "Cardiac Damage", "Alopecia"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Intramuscular Injection"
+    ],
+    "supportsGoals": [
+      "Wound Healing",
+      "Tissue Repair",
+      "Cardiac Recovery",
+      "Hair Regrowth"
+    ],
+    "treatsSymptoms": [
+      "Chronic Wounds",
+      "Muscle Injury",
+      "Cardiac Damage",
+      "Alopecia"
+    ],
     "contraindications": "Contraindicated in active malignancy. Not recommended during pregnancy.",
     "timingRules": "Loading phase: 2x/week for 4 weeks. Maintenance: 1x/week.",
-    "knownSynergies": ["BPC-157", "GHK-Cu", "IGF-1 LR3"]
+    "knownSynergies": [
+      "BPC-157",
+      "GHK-Cu",
+      "IGF-1 LR3"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-003",
     "compoundName": "Modafinil",
     "category": "Eugeroic",
     "halfLifeHours": 15,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Wakefulness", "Cognitive Enhancement", "Focus", "Executive Function"],
-    "treatsSymptoms": ["Excessive Daytime Sleepiness", "Narcolepsy", "Brain Fog", "ADHD Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Wakefulness",
+      "Cognitive Enhancement",
+      "Focus",
+      "Executive Function"
+    ],
+    "treatsSymptoms": [
+      "Excessive Daytime Sleepiness",
+      "Narcolepsy",
+      "Brain Fog",
+      "ADHD Symptoms"
+    ],
     "contraindications": "MAOI interaction — severe hypertensive crisis risk. Avoid with cardiovascular disease. Reduces efficacy of oral contraceptives.",
     "timingRules": "Take within 1 hour of waking. Do not take after 12 PM to preserve sleep architecture.",
-    "knownSynergies": ["L-Theanine", "Alpha-GPC", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Alpha-GPC",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-004",
     "compoundName": "Lion's Mane (Hericium erinaceus)",
     "category": "Botanical / Fungal",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Neurogenesis", "Cognitive Enhancement", "Nerve Repair", "Mood Support"],
-    "treatsSymptoms": ["Brain Fog", "Mild Cognitive Impairment", "Neuropathy", "Depressive Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Neurogenesis",
+      "Cognitive Enhancement",
+      "Nerve Repair",
+      "Mood Support"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Mild Cognitive Impairment",
+      "Neuropathy",
+      "Depressive Symptoms"
+    ],
     "contraindications": "Caution with anticoagulants (may potentiate bleeding). Avoid in mushroom allergy.",
     "timingRules": "Best taken with meals. Morning dose preferred for cognitive benefit.",
-    "knownSynergies": ["Niacin", "Psilocybin Microdose", "Bacopa Monnieri"]
+    "knownSynergies": [
+      "Niacin",
+      "Psilocybin Microdose",
+      "Bacopa Monnieri"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-005",
     "compoundName": "Alpha-GPC",
     "category": "Nootropic / Cholinergic",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Memory Enhancement", "Focus", "Power Output", "Acetylcholine Support"],
-    "treatsSymptoms": ["Memory Decline", "Brain Fog", "Age-Related Cognitive Decline", "Athletic Fatigue"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Memory Enhancement",
+      "Focus",
+      "Power Output",
+      "Acetylcholine Support"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Brain Fog",
+      "Age-Related Cognitive Decline",
+      "Athletic Fatigue"
+    ],
     "contraindications": "Avoid with acetylcholinesterase inhibitors. Caution in trimethylaminuria (TMAU).",
     "timingRules": "Take 30-60 min before cognitive tasks or training. Can split AM/PM.",
-    "knownSynergies": ["Modafinil", "Racetams", "Uridine Monophosphate", "DHA"]
+    "knownSynergies": [
+      "Modafinil",
+      "Racetams",
+      "Uridine Monophosphate",
+      "DHA"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-006",
     "compoundName": "Ashwagandha (Withania somnifera)",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Stress Reduction", "Cortisol Regulation", "Sleep Quality", "Testosterone Support"],
-    "treatsSymptoms": ["Chronic Stress", "Anxiety", "Insomnia", "Adrenal Fatigue"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Stress Reduction",
+      "Cortisol Regulation",
+      "Sleep Quality",
+      "Testosterone Support"
+    ],
+    "treatsSymptoms": [
+      "Chronic Stress",
+      "Anxiety",
+      "Insomnia",
+      "Adrenal Fatigue"
+    ],
     "contraindications": "Thyroid-stimulating — avoid in hyperthyroidism. May potentiate sedatives and thyroid medications.",
     "timingRules": "Evening dose preferred for sleep. With food to reduce GI discomfort.",
-    "knownSynergies": ["Magnesium Glycinate", "Rhodiola Rosea", "L-Theanine"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "Rhodiola Rosea",
+      "L-Theanine"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-007",
     "compoundName": "Magnesium L-Threonate",
     "category": "Mineral / Nootropic",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cognitive Enhancement", "Sleep Quality", "Synaptic Plasticity", "Anxiety Reduction"],
-    "treatsSymptoms": ["Brain Fog", "Insomnia", "Anxiety", "Age-Related Memory Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Sleep Quality",
+      "Synaptic Plasticity",
+      "Anxiety Reduction"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Insomnia",
+      "Anxiety",
+      "Age-Related Memory Decline"
+    ],
     "contraindications": "Renal impairment — risk of hypermagnesemia. Caution with antibiotics (chelation).",
     "timingRules": "Split dose: 1 cap AM, 2 caps 1 hour before bed.",
-    "knownSynergies": ["Modafinil", "Apigenin", "L-Theanine", "Glycine"]
+    "knownSynergies": [
+      "Modafinil",
+      "Apigenin",
+      "L-Theanine",
+      "Glycine"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-008",
     "compoundName": "Semax",
     "category": "Peptide / Nootropic",
     "halfLifeHours": 0.5,
-    "administrationRoute": ["Intranasal"],
-    "supportsGoals": ["Cognitive Enhancement", "Neuroprotection", "BDNF Upregulation", "Focus"],
-    "treatsSymptoms": ["Brain Fog", "Stroke Recovery", "ADHD Symptoms", "Cognitive Decline"],
+    "administrationRoute": [
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Neuroprotection",
+      "BDNF Upregulation",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Stroke Recovery",
+      "ADHD Symptoms",
+      "Cognitive Decline"
+    ],
     "contraindications": "Avoid in acute psychosis. Not recommended during pregnancy/lactation.",
     "timingRules": "Intranasal AM dosing. Effects onset within 5 min, redose every 4-6 hours if needed.",
-    "knownSynergies": ["Selank", "Noopept", "Alpha-GPC"]
+    "knownSynergies": [
+      "Selank",
+      "Noopept",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-009",
     "compoundName": "Selank",
     "category": "Peptide / Anxiolytic",
     "halfLifeHours": 0.3,
-    "administrationRoute": ["Intranasal"],
-    "supportsGoals": ["Anxiety Reduction", "Mood Stabilization", "Immune Modulation", "Focus"],
-    "treatsSymptoms": ["Generalized Anxiety", "Brain Fog", "Immune Dysfunction", "Depressive Symptoms"],
+    "administrationRoute": [
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Anxiety Reduction",
+      "Mood Stabilization",
+      "Immune Modulation",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "Generalized Anxiety",
+      "Brain Fog",
+      "Immune Dysfunction",
+      "Depressive Symptoms"
+    ],
     "contraindications": "Avoid combining with benzodiazepines (potentiation). Pregnancy contraindicated.",
     "timingRules": "Intranasal 2-3x daily. Can stack with Semax for synergistic nootropic/anxiolytic effect.",
-    "knownSynergies": ["Semax", "L-Theanine", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "Semax",
+      "L-Theanine",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-010",
     "compoundName": "GHK-Cu",
     "category": "Peptide",
     "halfLifeHours": 1,
-    "administrationRoute": ["Subcutaneous Injection", "Topical"],
-    "supportsGoals": ["Skin Rejuvenation", "Wound Healing", "Collagen Synthesis", "Anti-Aging"],
-    "treatsSymptoms": ["Skin Aging", "Scarring", "Wound Healing Delay", "Hair Thinning"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Topical"
+    ],
+    "supportsGoals": [
+      "Skin Rejuvenation",
+      "Wound Healing",
+      "Collagen Synthesis",
+      "Anti-Aging"
+    ],
+    "treatsSymptoms": [
+      "Skin Aging",
+      "Scarring",
+      "Wound Healing Delay",
+      "Hair Thinning"
+    ],
     "contraindications": "Caution with copper overload disorders (Wilson's disease). Avoid in active skin infections.",
     "timingRules": "Topical: 2x daily. Injection: 3x/week. Cycle 8 weeks on, 4 weeks off.",
-    "knownSynergies": ["BPC-157", "TB-500", "Vitamin C"]
+    "knownSynergies": [
+      "BPC-157",
+      "TB-500",
+      "Vitamin C"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-011",
     "compoundName": "Bacopa Monnieri",
     "category": "Botanical / Nootropic",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Memory Enhancement", "Learning", "Neuroprotection", "Anxiety Reduction"],
-    "treatsSymptoms": ["Memory Decline", "Test Anxiety", "ADHD Symptoms", "Cognitive Fatigue"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Memory Enhancement",
+      "Learning",
+      "Neuroprotection",
+      "Anxiety Reduction"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Test Anxiety",
+      "ADHD Symptoms",
+      "Cognitive Fatigue"
+    ],
     "contraindications": "May slow heart rate — avoid with bradycardia. Can increase GI motility.",
     "timingRules": "Take with fat-containing meal for absorption. Effects build over 8-12 weeks.",
-    "knownSynergies": ["Lion's Mane (Hericium erinaceus)", "DHA", "Ginkgo Biloba"]
+    "knownSynergies": [
+      "Lion's Mane (Hericium erinaceus)",
+      "DHA",
+      "Ginkgo Biloba"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-012",
     "compoundName": "L-Theanine",
     "category": "Amino Acid",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Calm Focus", "Anxiety Reduction", "Sleep Quality", "Alpha Wave Enhancement"],
-    "treatsSymptoms": ["Anxiety", "Jitteriness", "Insomnia", "Stimulant Side Effects"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Calm Focus",
+      "Anxiety Reduction",
+      "Sleep Quality",
+      "Alpha Wave Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Anxiety",
+      "Jitteriness",
+      "Insomnia",
+      "Stimulant Side Effects"
+    ],
     "contraindications": "Generally well tolerated. May potentiate antihypertensives.",
     "timingRules": "Pair with stimulants to smooth the curve. 200mg AM with caffeine, 400mg PM for sleep.",
-    "knownSynergies": ["Modafinil", "Caffeine", "Ashwagandha (Withania somnifera)", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "Modafinil",
+      "Caffeine",
+      "Ashwagandha (Withania somnifera)",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-013",
     "compoundName": "Rhodiola Rosea",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Stress Resilience", "Physical Endurance", "Mood Support", "Fatigue Reduction"],
-    "treatsSymptoms": ["Burnout", "Physical Fatigue", "Mild Depression", "Stress-Induced Cognitive Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Stress Resilience",
+      "Physical Endurance",
+      "Mood Support",
+      "Fatigue Reduction"
+    ],
+    "treatsSymptoms": [
+      "Burnout",
+      "Physical Fatigue",
+      "Mild Depression",
+      "Stress-Induced Cognitive Decline"
+    ],
     "contraindications": "May exacerbate mania in bipolar disorder. Mild MAOI activity — caution with serotonergic drugs.",
     "timingRules": "Take AM on empty stomach. Avoid evening dosing (mildly stimulating).",
-    "knownSynergies": ["Ashwagandha (Withania somnifera)", "Cordyceps Militaris", "Eleuthero"]
+    "knownSynergies": [
+      "Ashwagandha (Withania somnifera)",
+      "Cordyceps Militaris",
+      "Eleuthero"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-014",
     "compoundName": "Noopept",
     "category": "Nootropic / Peptide-Derived",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Cognitive Enhancement", "Memory Formation", "Neuroprotection", "BDNF Upregulation"],
-    "treatsSymptoms": ["Brain Fog", "Memory Decline", "Cognitive Impairment", "Post-Concussion Syndrome"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Memory Formation",
+      "Neuroprotection",
+      "BDNF Upregulation"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Memory Decline",
+      "Cognitive Impairment",
+      "Post-Concussion Syndrome"
+    ],
     "contraindications": "Avoid in hypertension (may raise blood pressure acutely). Caution with other stimulants.",
     "timingRules": "Sublingual 10-30mg 2x daily. Cycle 56 days on, 4 days off.",
-    "knownSynergies": ["Alpha-GPC", "Semax", "Piracetam"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Semax",
+      "Piracetam"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-015",
     "compoundName": "Piracetam",
     "category": "Nootropic / Racetam",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Memory Enhancement", "Verbal Fluency", "Neuroprotection", "Cognitive Flexibility"],
-    "treatsSymptoms": ["Memory Decline", "Dyslexia Symptoms", "Cognitive Impairment", "Vertigo"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Memory Enhancement",
+      "Verbal Fluency",
+      "Neuroprotection",
+      "Cognitive Flexibility"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Dyslexia Symptoms",
+      "Cognitive Impairment",
+      "Vertigo"
+    ],
     "contraindications": "Renal impairment (renally cleared). May increase bleeding risk — caution with anticoagulants.",
     "timingRules": "Split into 2-3 doses daily. Must co-supplement choline source.",
-    "knownSynergies": ["Alpha-GPC", "Aniracetam", "Noopept", "Choline Bitartrate"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Aniracetam",
+      "Noopept",
+      "Choline Bitartrate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-016",
     "compoundName": "Aniracetam",
     "category": "Nootropic / Racetam",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Creativity", "Anxiety Reduction", "Verbal Fluency", "Holistic Thinking"],
-    "treatsSymptoms": ["Social Anxiety", "Creative Block", "Memory Decline", "Cognitive Rigidity"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Creativity",
+      "Anxiety Reduction",
+      "Verbal Fluency",
+      "Holistic Thinking"
+    ],
+    "treatsSymptoms": [
+      "Social Anxiety",
+      "Creative Block",
+      "Memory Decline",
+      "Cognitive Rigidity"
+    ],
     "contraindications": "Fat-soluble — bioavailability depends on dietary fat. Caution in hepatic impairment.",
     "timingRules": "Take with fat-containing meal. 2-3x daily due to short half-life.",
-    "knownSynergies": ["Piracetam", "Alpha-GPC", "Sulbutiamine"]
+    "knownSynergies": [
+      "Piracetam",
+      "Alpha-GPC",
+      "Sulbutiamine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-017",
     "compoundName": "Phenylpiracetam",
     "category": "Nootropic / Racetam",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Physical Performance", "Focus", "Cold Tolerance", "Stimulation"],
-    "treatsSymptoms": ["Fatigue", "Brain Fog", "Athletic Underperformance", "Depression"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Physical Performance",
+      "Focus",
+      "Cold Tolerance",
+      "Stimulation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Brain Fog",
+      "Athletic Underperformance",
+      "Depression"
+    ],
     "contraindications": "Banned by WADA (athletic competitions). Tolerance develops rapidly — cycle strictly.",
     "timingRules": "AM only (stimulating). Max 2-3x/week to prevent tolerance. Cycle 2 weeks on, 2 off.",
-    "knownSynergies": ["Alpha-GPC", "Sulbutiamine", "Caffeine"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Sulbutiamine",
+      "Caffeine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-018",
     "compoundName": "NAD+ Precursor (NMN)",
     "category": "Nucleotide / Anti-Aging",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Anti-Aging", "Cellular Energy", "DNA Repair", "Sirtuin Activation"],
-    "treatsSymptoms": ["Fatigue", "Age-Related Decline", "Metabolic Dysfunction", "Poor Recovery"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Anti-Aging",
+      "Cellular Energy",
+      "DNA Repair",
+      "Sirtuin Activation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Age-Related Decline",
+      "Metabolic Dysfunction",
+      "Poor Recovery"
+    ],
     "contraindications": "Theoretical concern in active cancer (NAD+ fuels rapid cell division). Monitor blood glucose.",
     "timingRules": "AM dosing on empty stomach. Sublingual preferred for bioavailability.",
-    "knownSynergies": ["Resveratrol", "TMG (Betaine)", "Quercetin", "Fisetin"]
+    "knownSynergies": [
+      "Resveratrol",
+      "TMG (Betaine)",
+      "Quercetin",
+      "Fisetin"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-019",
     "compoundName": "Resveratrol",
     "category": "Botanical / Polyphenol",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anti-Aging", "Cardiovascular Health", "Sirtuin Activation", "Anti-Inflammation"],
-    "treatsSymptoms": ["Oxidative Stress", "Cardiovascular Risk", "Chronic Inflammation", "Metabolic Syndrome"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anti-Aging",
+      "Cardiovascular Health",
+      "Sirtuin Activation",
+      "Anti-Inflammation"
+    ],
+    "treatsSymptoms": [
+      "Oxidative Stress",
+      "Cardiovascular Risk",
+      "Chronic Inflammation",
+      "Metabolic Syndrome"
+    ],
     "contraindications": "Estrogenic activity — caution in hormone-sensitive cancers. May potentiate anticoagulants.",
     "timingRules": "Take AM with fat. Pair with NMN for sirtuin activation synergy.",
-    "knownSynergies": ["NAD+ Precursor (NMN)", "Quercetin", "Pterostilbene"]
+    "knownSynergies": [
+      "NAD+ Precursor (NMN)",
+      "Quercetin",
+      "Pterostilbene"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-020",
     "compoundName": "Metformin",
     "category": "Biguanide / Longevity",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Longevity", "Blood Sugar Regulation", "AMPK Activation", "Cancer Risk Reduction"],
-    "treatsSymptoms": ["Insulin Resistance", "Type 2 Diabetes", "Metabolic Syndrome", "Hyperglycemia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Longevity",
+      "Blood Sugar Regulation",
+      "AMPK Activation",
+      "Cancer Risk Reduction"
+    ],
+    "treatsSymptoms": [
+      "Insulin Resistance",
+      "Type 2 Diabetes",
+      "Metabolic Syndrome",
+      "Hyperglycemia"
+    ],
     "contraindications": "Renal impairment (lactic acidosis risk). Depletes B12 long-term. Avoid with excess alcohol.",
     "timingRules": "Take with dinner. Extended release preferred. Supplement B12 concurrently.",
-    "knownSynergies": ["Berberine", "NAD+ Precursor (NMN)", "Alpha-Lipoic Acid"]
+    "knownSynergies": [
+      "Berberine",
+      "NAD+ Precursor (NMN)",
+      "Alpha-Lipoic Acid"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-021",
     "compoundName": "Berberine",
     "category": "Botanical / Alkaloid",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Blood Sugar Regulation", "Gut Health", "AMPK Activation", "Lipid Optimization"],
-    "treatsSymptoms": ["Insulin Resistance", "Dyslipidemia", "SIBO", "Metabolic Syndrome"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Blood Sugar Regulation",
+      "Gut Health",
+      "AMPK Activation",
+      "Lipid Optimization"
+    ],
+    "treatsSymptoms": [
+      "Insulin Resistance",
+      "Dyslipidemia",
+      "SIBO",
+      "Metabolic Syndrome"
+    ],
     "contraindications": "Potent CYP3A4 inhibitor — major drug interactions. Avoid with Metformin (hypoglycemia risk). Pregnancy contraindicated.",
     "timingRules": "Take with meals. Split 3x daily (500mg each). Cycle 8 weeks on, 2 off.",
-    "knownSynergies": ["Alpha-Lipoic Acid", "Chromium Picolinate", "Milk Thistle"]
+    "knownSynergies": [
+      "Alpha-Lipoic Acid",
+      "Chromium Picolinate",
+      "Milk Thistle"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-022",
     "compoundName": "Caffeine (Anhydrous)",
     "category": "Alkaloid / Stimulant",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Wakefulness", "Physical Performance", "Focus", "Fat Oxidation"],
-    "treatsSymptoms": ["Fatigue", "Drowsiness", "Poor Exercise Performance", "Brain Fog"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Wakefulness",
+      "Physical Performance",
+      "Focus",
+      "Fat Oxidation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Drowsiness",
+      "Poor Exercise Performance",
+      "Brain Fog"
+    ],
     "contraindications": "Anxiety disorders, cardiac arrhythmias, pregnancy. Avoid stacking with other stimulants beyond tolerance.",
     "timingRules": "Delay 90 min after waking (adenosine receptor timing). No caffeine after 2 PM.",
-    "knownSynergies": ["L-Theanine", "Phenylpiracetam", "Dynamine"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Phenylpiracetam",
+      "Dynamine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-023",
     "compoundName": "Creatine Monohydrate",
     "category": "Amino Acid Derivative",
     "halfLifeHours": 168,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Muscle Performance", "Cognitive Enhancement", "Cellular Energy", "Neuroprotection"],
-    "treatsSymptoms": ["Muscle Weakness", "Cognitive Fatigue", "Poor Athletic Recovery", "TBI Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Muscle Performance",
+      "Cognitive Enhancement",
+      "Cellular Energy",
+      "Neuroprotection"
+    ],
+    "treatsSymptoms": [
+      "Muscle Weakness",
+      "Cognitive Fatigue",
+      "Poor Athletic Recovery",
+      "TBI Symptoms"
+    ],
     "contraindications": "Caution in pre-existing renal disease. Ensure adequate hydration.",
     "timingRules": "5g daily, any time. No loading phase necessary. Consistent daily dosing critical.",
-    "knownSynergies": ["Beta-Alanine", "HMB", "Electrolytes"]
+    "knownSynergies": [
+      "Beta-Alanine",
+      "HMB",
+      "Electrolytes"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-024",
     "compoundName": "Beta-Alanine",
     "category": "Amino Acid",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Endurance", "Lactic Acid Buffering", "Muscular Endurance", "HIIT Performance"],
-    "treatsSymptoms": ["Exercise-Induced Fatigue", "Muscle Burn", "Poor Endurance Capacity"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Endurance",
+      "Lactic Acid Buffering",
+      "Muscular Endurance",
+      "HIIT Performance"
+    ],
+    "treatsSymptoms": [
+      "Exercise-Induced Fatigue",
+      "Muscle Burn",
+      "Poor Endurance Capacity"
+    ],
     "contraindications": "Paresthesia (tingling) is common but benign. Caution in taurine-deficient individuals.",
     "timingRules": "Split into 2-3 doses to minimize paresthesia. Daily loading for 4 weeks.",
-    "knownSynergies": ["Creatine Monohydrate", "Citrulline Malate", "Sodium Bicarbonate"]
+    "knownSynergies": [
+      "Creatine Monohydrate",
+      "Citrulline Malate",
+      "Sodium Bicarbonate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-025",
     "compoundName": "Citrulline Malate",
     "category": "Amino Acid",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Nitric Oxide Production", "Blood Flow", "Endurance", "Pump Enhancement"],
-    "treatsSymptoms": ["Poor Circulation", "Exercise Fatigue", "Erectile Dysfunction", "Muscle Soreness"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Nitric Oxide Production",
+      "Blood Flow",
+      "Endurance",
+      "Pump Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Poor Circulation",
+      "Exercise Fatigue",
+      "Erectile Dysfunction",
+      "Muscle Soreness"
+    ],
     "contraindications": "Caution with PDE5 inhibitors (additive hypotension). Avoid with citrullinemia.",
     "timingRules": "6-8g 30-60 min pre-workout. Can take daily for sustained NO benefit.",
-    "knownSynergies": ["Beta-Alanine", "Beetroot Extract", "Arginine"]
+    "knownSynergies": [
+      "Beta-Alanine",
+      "Beetroot Extract",
+      "Arginine"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-026",
     "compoundName": "N-Acetyl Cysteine (NAC)",
     "category": "Amino Acid Derivative",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Glutathione Production", "Liver Support", "Mucolytic", "Antioxidant Defense"],
-    "treatsSymptoms": ["Oxidative Stress", "Acetaminophen Toxicity", "Respiratory Congestion", "OCD Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Glutathione Production",
+      "Liver Support",
+      "Mucolytic",
+      "Antioxidant Defense"
+    ],
+    "treatsSymptoms": [
+      "Oxidative Stress",
+      "Acetaminophen Toxicity",
+      "Respiratory Congestion",
+      "OCD Symptoms"
+    ],
     "contraindications": "May reduce efficacy of nitroglycerin. Caution in asthma (rare bronchospasm).",
     "timingRules": "Take on empty stomach. Separate from minerals by 2 hours (chelation).",
-    "knownSynergies": ["Vitamin C", "Glutathione (Liposomal)", "Milk Thistle"]
+    "knownSynergies": [
+      "Vitamin C",
+      "Glutathione (Liposomal)",
+      "Milk Thistle"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-027",
     "compoundName": "Glutathione (Liposomal)",
     "category": "Tripeptide / Antioxidant",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral", "IV Infusion"],
-    "supportsGoals": ["Detoxification", "Antioxidant Defense", "Immune Support", "Skin Brightening"],
-    "treatsSymptoms": ["Oxidative Stress", "Toxic Burden", "Immune Dysfunction", "Hyperpigmentation"],
+    "administrationRoute": [
+      "Oral",
+      "IV Infusion"
+    ],
+    "supportsGoals": [
+      "Detoxification",
+      "Antioxidant Defense",
+      "Immune Support",
+      "Skin Brightening"
+    ],
+    "treatsSymptoms": [
+      "Oxidative Stress",
+      "Toxic Burden",
+      "Immune Dysfunction",
+      "Hyperpigmentation"
+    ],
     "contraindications": "IV form: monitor for anaphylaxis. Theoretical concern with chemotherapy efficacy.",
     "timingRules": "Empty stomach AM. Liposomal form essential for oral bioavailability.",
-    "knownSynergies": ["N-Acetyl Cysteine (NAC)", "Vitamin C", "Alpha-Lipoic Acid"]
+    "knownSynergies": [
+      "N-Acetyl Cysteine (NAC)",
+      "Vitamin C",
+      "Alpha-Lipoic Acid"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-028",
     "compoundName": "Alpha-Lipoic Acid",
     "category": "Antioxidant / Fatty Acid",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Antioxidant Recycling", "Blood Sugar Regulation", "Nerve Health", "Heavy Metal Chelation"],
-    "treatsSymptoms": ["Diabetic Neuropathy", "Oxidative Stress", "Insulin Resistance", "Heavy Metal Burden"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Antioxidant Recycling",
+      "Blood Sugar Regulation",
+      "Nerve Health",
+      "Heavy Metal Chelation"
+    ],
+    "treatsSymptoms": [
+      "Diabetic Neuropathy",
+      "Oxidative Stress",
+      "Insulin Resistance",
+      "Heavy Metal Burden"
+    ],
     "contraindications": "Thiamine depletion risk long-term. May cause hypoglycemia with diabetes meds.",
     "timingRules": "Empty stomach for best absorption. R-ALA form preferred. Supplement thiamine.",
-    "knownSynergies": ["Glutathione (Liposomal)", "Metformin", "Benfotiamine"]
+    "knownSynergies": [
+      "Glutathione (Liposomal)",
+      "Metformin",
+      "Benfotiamine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-029",
     "compoundName": "Dihexa",
     "category": "Peptide / Nootropic",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral", "Intranasal", "Topical"],
-    "supportsGoals": ["Cognitive Enhancement", "Synaptogenesis", "HGF Mimetic", "Memory Formation"],
-    "treatsSymptoms": ["Alzheimer's Symptoms", "Severe Cognitive Decline", "Memory Loss", "Neurodegeneration"],
+    "administrationRoute": [
+      "Oral",
+      "Intranasal",
+      "Topical"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Synaptogenesis",
+      "HGF Mimetic",
+      "Memory Formation"
+    ],
+    "treatsSymptoms": [
+      "Alzheimer's Symptoms",
+      "Severe Cognitive Decline",
+      "Memory Loss",
+      "Neurodegeneration"
+    ],
     "contraindications": "Highly experimental — limited human safety data. Possible pro-oncogenic via HGF pathway.",
     "timingRules": "Intranasal or topical application. Extremely low doses (1-5mg). Cycle carefully.",
-    "knownSynergies": ["Semax", "NSI-189", "BDNF-supporting compounds"]
+    "knownSynergies": [
+      "Semax",
+      "NSI-189",
+      "BDNF-supporting compounds"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-030",
     "compoundName": "NSI-189",
     "category": "Nootropic / Neurogenic",
     "halfLifeHours": 18,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Hippocampal Neurogenesis", "Depression Treatment", "Cognitive Enhancement", "Memory"],
-    "treatsSymptoms": ["Treatment-Resistant Depression", "Cognitive Decline", "Memory Impairment", "Anhedonia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Hippocampal Neurogenesis",
+      "Depression Treatment",
+      "Cognitive Enhancement",
+      "Memory"
+    ],
+    "treatsSymptoms": [
+      "Treatment-Resistant Depression",
+      "Cognitive Decline",
+      "Memory Impairment",
+      "Anhedonia"
+    ],
     "contraindications": "Experimental compound — no FDA approval. Avoid with SSRIs until more data available.",
     "timingRules": "AM dosing. Start at 20mg, titrate to 40mg over 2 weeks.",
-    "knownSynergies": ["Dihexa", "Lion's Mane (Hericium erinaceus)", "Semax"]
+    "knownSynergies": [
+      "Dihexa",
+      "Lion's Mane (Hericium erinaceus)",
+      "Semax"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-031",
     "compoundName": "Epitalon (Epithalon)",
     "category": "Peptide / Anti-Aging",
     "halfLifeHours": 2,
-    "administrationRoute": ["Subcutaneous Injection"],
-    "supportsGoals": ["Telomere Lengthening", "Anti-Aging", "Melatonin Regulation", "Circadian Repair"],
-    "treatsSymptoms": ["Accelerated Aging", "Telomere Shortening", "Insomnia", "Immune Senescence"],
+    "administrationRoute": [
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Telomere Lengthening",
+      "Anti-Aging",
+      "Melatonin Regulation",
+      "Circadian Repair"
+    ],
+    "treatsSymptoms": [
+      "Accelerated Aging",
+      "Telomere Shortening",
+      "Insomnia",
+      "Immune Senescence"
+    ],
     "contraindications": "Limited human data. Theoretical tumor promotion via telomerase activation.",
     "timingRules": "10-day cycle, 5-10mg/day SC injection. Repeat cycle every 4-6 months.",
-    "knownSynergies": ["NAD+ Precursor (NMN)", "Melatonin", "Astragaloside IV"]
+    "knownSynergies": [
+      "NAD+ Precursor (NMN)",
+      "Melatonin",
+      "Astragaloside IV"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-032",
     "compoundName": "Melatonin",
     "category": "Hormone / Neurohormone",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Sleep Induction", "Circadian Regulation", "Antioxidant Defense", "Immune Support"],
-    "treatsSymptoms": ["Insomnia", "Jet Lag", "Circadian Disruption", "Delayed Sleep Phase"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Sleep Induction",
+      "Circadian Regulation",
+      "Antioxidant Defense",
+      "Immune Support"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Jet Lag",
+      "Circadian Disruption",
+      "Delayed Sleep Phase"
+    ],
     "contraindications": "May worsen depression in some. Caution with immunosuppressants and anticoagulants.",
     "timingRules": "0.3-1mg sublingual 30 min before bed. Higher doses paradoxically worsen sleep.",
-    "knownSynergies": ["Magnesium L-Threonate", "Apigenin", "Glycine"]
+    "knownSynergies": [
+      "Magnesium L-Threonate",
+      "Apigenin",
+      "Glycine"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-033",
     "compoundName": "Apigenin",
     "category": "Botanical / Flavonoid",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Sleep Quality", "Anxiety Reduction", "Anti-Inflammation", "Aromatase Inhibition"],
-    "treatsSymptoms": ["Insomnia", "Anxiety", "Estrogen Dominance", "Inflammation"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Sleep Quality",
+      "Anxiety Reduction",
+      "Anti-Inflammation",
+      "Aromatase Inhibition"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Anxiety",
+      "Estrogen Dominance",
+      "Inflammation"
+    ],
     "contraindications": "Potent aromatase inhibitor — monitor estrogen levels. Caution in pregnancy.",
     "timingRules": "50mg 1 hour before bed. Can combine with magnesium threonate stack.",
-    "knownSynergies": ["Melatonin", "Magnesium L-Threonate", "L-Theanine"]
+    "knownSynergies": [
+      "Melatonin",
+      "Magnesium L-Threonate",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-034",
     "compoundName": "Glycine",
     "category": "Amino Acid",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Sleep Quality", "Collagen Synthesis", "Neurotransmitter Balance", "Detoxification"],
-    "treatsSymptoms": ["Insomnia", "Joint Stiffness", "Poor Recovery", "Metabolic Dysfunction"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Sleep Quality",
+      "Collagen Synthesis",
+      "Neurotransmitter Balance",
+      "Detoxification"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Joint Stiffness",
+      "Poor Recovery",
+      "Metabolic Dysfunction"
+    ],
     "contraindications": "Generally safe. May interact with clozapine. Very high doses may cause GI upset.",
     "timingRules": "3g 1 hour before bed for sleep. Can also take with collagen AM.",
-    "knownSynergies": ["Magnesium L-Threonate", "Melatonin", "Collagen Peptides"]
+    "knownSynergies": [
+      "Magnesium L-Threonate",
+      "Melatonin",
+      "Collagen Peptides"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-035",
     "compoundName": "Collagen Peptides (Type I/III)",
     "category": "Protein / Structural",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Joint Health", "Skin Elasticity", "Gut Lining Repair", "Tendon Strength"],
-    "treatsSymptoms": ["Joint Pain", "Skin Aging", "Leaky Gut", "Brittle Nails/Hair"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Joint Health",
+      "Skin Elasticity",
+      "Gut Lining Repair",
+      "Tendon Strength"
+    ],
+    "treatsSymptoms": [
+      "Joint Pain",
+      "Skin Aging",
+      "Leaky Gut",
+      "Brittle Nails/Hair"
+    ],
     "contraindications": "Generally safe. Source-dependent allergen risk (marine, bovine).",
     "timingRules": "10-20g daily with vitamin C for hydroxylation. Any time of day.",
-    "knownSynergies": ["BPC-157", "Glycine", "Vitamin C"]
+    "knownSynergies": [
+      "BPC-157",
+      "Glycine",
+      "Vitamin C"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-036",
     "compoundName": "Vitamin D3 + K2 (MK-7)",
     "category": "Vitamin / Hormone Precursor",
     "halfLifeHours": 360,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Bone Health", "Immune Function", "Mood Support", "Calcium Regulation"],
-    "treatsSymptoms": ["Vitamin D Deficiency", "Seasonal Depression", "Osteoporosis Risk", "Immune Weakness"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Bone Health",
+      "Immune Function",
+      "Mood Support",
+      "Calcium Regulation"
+    ],
+    "treatsSymptoms": [
+      "Vitamin D Deficiency",
+      "Seasonal Depression",
+      "Osteoporosis Risk",
+      "Immune Weakness"
+    ],
     "contraindications": "K2 contraindicated with warfarin. Hypercalcemia risk with excess D3. Monitor 25(OH)D levels.",
     "timingRules": "Take with fat-containing meal. Morning preferred. Test blood levels quarterly.",
-    "knownSynergies": ["Magnesium Glycinate", "Boron", "Zinc"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "Boron",
+      "Zinc"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-037",
     "compoundName": "Omega-3 (EPA/DHA)",
     "category": "Essential Fatty Acid",
     "halfLifeHours": 48,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anti-Inflammation", "Brain Health", "Cardiovascular Health", "Joint Support"],
-    "treatsSymptoms": ["Chronic Inflammation", "Depression", "Triglyceride Elevation", "Dry Eyes"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anti-Inflammation",
+      "Brain Health",
+      "Cardiovascular Health",
+      "Joint Support"
+    ],
+    "treatsSymptoms": [
+      "Chronic Inflammation",
+      "Depression",
+      "Triglyceride Elevation",
+      "Dry Eyes"
+    ],
     "contraindications": "May increase bleeding risk with anticoagulants. Caution pre-surgery.",
     "timingRules": "With meals for absorption. 2-4g EPA+DHA daily. Triglyceride form preferred.",
-    "knownSynergies": ["Curcumin", "Vitamin D3 + K2 (MK-7)", "Astaxanthin"]
+    "knownSynergies": [
+      "Curcumin",
+      "Vitamin D3 + K2 (MK-7)",
+      "Astaxanthin"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-038",
     "compoundName": "Curcumin (BCM-95 or Longvida)",
     "category": "Botanical / Polyphenol",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anti-Inflammation", "Joint Health", "Neuroprotection", "Liver Support"],
-    "treatsSymptoms": ["Chronic Inflammation", "Arthritis", "Brain Fog", "Digestive Inflammation"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anti-Inflammation",
+      "Joint Health",
+      "Neuroprotection",
+      "Liver Support"
+    ],
+    "treatsSymptoms": [
+      "Chronic Inflammation",
+      "Arthritis",
+      "Brain Fog",
+      "Digestive Inflammation"
+    ],
     "contraindications": "May interact with anticoagulants. Gallbladder disease (stimulates bile). Iron chelation at high doses.",
     "timingRules": "With fat and black pepper extract (piperine) for absorption. AM/PM split.",
-    "knownSynergies": ["Omega-3 (EPA/DHA)", "Boswellia Serrata", "Ginger Extract"]
+    "knownSynergies": [
+      "Omega-3 (EPA/DHA)",
+      "Boswellia Serrata",
+      "Ginger Extract"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-039",
     "compoundName": "Quercetin",
     "category": "Botanical / Flavonoid",
     "halfLifeHours": 11,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Senolytic Activity", "Anti-Inflammation", "Allergy Relief", "Immune Support"],
-    "treatsSymptoms": ["Allergies", "Chronic Inflammation", "Cellular Senescence", "Histamine Intolerance"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Senolytic Activity",
+      "Anti-Inflammation",
+      "Allergy Relief",
+      "Immune Support"
+    ],
+    "treatsSymptoms": [
+      "Allergies",
+      "Chronic Inflammation",
+      "Cellular Senescence",
+      "Histamine Intolerance"
+    ],
     "contraindications": "CYP3A4 inhibition — drug interactions. May potentiate cyclosporine. Caution with fluoroquinolones.",
     "timingRules": "Senolytic protocol: Quercetin + Dasatinib, 2 days/month. Daily anti-inflammatory: 500-1000mg.",
-    "knownSynergies": ["Fisetin", "NAD+ Precursor (NMN)", "Resveratrol", "Bromelain"]
+    "knownSynergies": [
+      "Fisetin",
+      "NAD+ Precursor (NMN)",
+      "Resveratrol",
+      "Bromelain"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-040",
     "compoundName": "Fisetin",
     "category": "Botanical / Flavonoid",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Senolytic Activity", "Neuroprotection", "Anti-Aging", "Anti-Inflammation"],
-    "treatsSymptoms": ["Cellular Senescence", "Cognitive Decline", "Chronic Inflammation", "Aging Biomarkers"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Senolytic Activity",
+      "Neuroprotection",
+      "Anti-Aging",
+      "Anti-Inflammation"
+    ],
+    "treatsSymptoms": [
+      "Cellular Senescence",
+      "Cognitive Decline",
+      "Chronic Inflammation",
+      "Aging Biomarkers"
+    ],
     "contraindications": "Limited human safety data at high senolytic doses. CYP interaction potential.",
     "timingRules": "Senolytic protocol: 20mg/kg for 2 consecutive days monthly. Daily: 100-500mg.",
-    "knownSynergies": ["Quercetin", "NAD+ Precursor (NMN)", "Resveratrol"]
+    "knownSynergies": [
+      "Quercetin",
+      "NAD+ Precursor (NMN)",
+      "Resveratrol"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-041",
     "compoundName": "Rapamycin (Low-Dose)",
     "category": "mTOR Inhibitor / Longevity",
     "halfLifeHours": 62,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Longevity", "Autophagy Induction", "Immune Remodeling", "Cancer Risk Reduction"],
-    "treatsSymptoms": ["Accelerated Aging", "Immune Senescence", "mTOR Overactivation", "Chronic Inflammation"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Longevity",
+      "Autophagy Induction",
+      "Immune Remodeling",
+      "Cancer Risk Reduction"
+    ],
+    "treatsSymptoms": [
+      "Accelerated Aging",
+      "Immune Senescence",
+      "mTOR Overactivation",
+      "Chronic Inflammation"
+    ],
     "contraindications": "Immunosuppressive at higher doses. Lipid elevation. Impaired wound healing. Requires physician oversight.",
     "timingRules": "Weekly pulsed dosing (3-6mg). Take on empty stomach. Not daily.",
-    "knownSynergies": ["Metformin", "NAD+ Precursor (NMN)", "Fisetin"]
+    "knownSynergies": [
+      "Metformin",
+      "NAD+ Precursor (NMN)",
+      "Fisetin"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-042",
     "compoundName": "Methylene Blue",
     "category": "Nootropic / Mitochondrial",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral", "IV Infusion"],
-    "supportsGoals": ["Mitochondrial Function", "Cognitive Enhancement", "Neuroprotection", "Anti-Aging"],
-    "treatsSymptoms": ["Brain Fog", "Mitochondrial Dysfunction", "Cognitive Decline", "Alzheimer's Symptoms"],
+    "administrationRoute": [
+      "Oral",
+      "IV Infusion"
+    ],
+    "supportsGoals": [
+      "Mitochondrial Function",
+      "Cognitive Enhancement",
+      "Neuroprotection",
+      "Anti-Aging"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Mitochondrial Dysfunction",
+      "Cognitive Decline",
+      "Alzheimer's Symptoms"
+    ],
     "contraindications": "SEVERE: Serotonin Syndrome risk with SSRIs/SNRIs/MAOIs. G6PD deficiency — hemolytic crisis. Never combine with serotonergic drugs.",
     "timingRules": "Micro-dose: 0.5-1mg/kg oral AM. Turns urine blue (harmless). Pharmaceutical grade only.",
-    "knownSynergies": ["NAD+ Precursor (NMN)", "CoQ10", "PQQ"]
+    "knownSynergies": [
+      "NAD+ Precursor (NMN)",
+      "CoQ10",
+      "PQQ"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-043",
     "compoundName": "CoQ10 (Ubiquinol)",
     "category": "Coenzyme / Mitochondrial",
     "halfLifeHours": 33,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Mitochondrial Function", "Cardiovascular Health", "Cellular Energy", "Statin Side Effect Mitigation"],
-    "treatsSymptoms": ["Fatigue", "Statin-Induced Myopathy", "Heart Failure Symptoms", "Mitochondrial Dysfunction"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Mitochondrial Function",
+      "Cardiovascular Health",
+      "Cellular Energy",
+      "Statin Side Effect Mitigation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Statin-Induced Myopathy",
+      "Heart Failure Symptoms",
+      "Mitochondrial Dysfunction"
+    ],
     "contraindications": "May reduce warfarin efficacy. Monitor INR if on anticoagulants.",
     "timingRules": "Ubiquinol form preferred over ubiquinone. Take with fat. 100-300mg daily.",
-    "knownSynergies": ["PQQ", "Methylene Blue", "NAD+ Precursor (NMN)", "Alpha-Lipoic Acid"]
+    "knownSynergies": [
+      "PQQ",
+      "Methylene Blue",
+      "NAD+ Precursor (NMN)",
+      "Alpha-Lipoic Acid"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-044",
     "compoundName": "PQQ (Pyrroloquinoline Quinone)",
     "category": "Coenzyme / Mitochondrial",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Mitochondrial Biogenesis", "Neuroprotection", "Cognitive Enhancement", "Anti-Aging"],
-    "treatsSymptoms": ["Fatigue", "Cognitive Decline", "Mitochondrial Dysfunction", "Poor Sleep Quality"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Mitochondrial Biogenesis",
+      "Neuroprotection",
+      "Cognitive Enhancement",
+      "Anti-Aging"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Cognitive Decline",
+      "Mitochondrial Dysfunction",
+      "Poor Sleep Quality"
+    ],
     "contraindications": "Generally safe. Very high doses may interfere with B vitamins.",
     "timingRules": "10-20mg AM with breakfast. Synergistic with CoQ10.",
-    "knownSynergies": ["CoQ10 (Ubiquinol)", "Methylene Blue", "NAD+ Precursor (NMN)"]
+    "knownSynergies": [
+      "CoQ10 (Ubiquinol)",
+      "Methylene Blue",
+      "NAD+ Precursor (NMN)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-045",
     "compoundName": "Sulbutiamine",
     "category": "Nootropic / Thiamine Derivative",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Motivation", "Dopamine Modulation", "Memory Enhancement", "Fatigue Reduction"],
-    "treatsSymptoms": ["Asthenia", "Motivation Deficit", "Brain Fog", "Erectile Dysfunction"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Motivation",
+      "Dopamine Modulation",
+      "Memory Enhancement",
+      "Fatigue Reduction"
+    ],
+    "treatsSymptoms": [
+      "Asthenia",
+      "Motivation Deficit",
+      "Brain Fog",
+      "Erectile Dysfunction"
+    ],
     "contraindications": "Tolerance develops quickly. Potential for psychological dependence. Avoid daily use.",
     "timingRules": "AM dosing only. Max 3x/week. Cycle 2 weeks on, 1 week off.",
-    "knownSynergies": ["Aniracetam", "Phenylpiracetam", "Alpha-GPC"]
+    "knownSynergies": [
+      "Aniracetam",
+      "Phenylpiracetam",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-046",
     "compoundName": "Tongkat Ali (Eurycoma longifolia)",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Testosterone Support", "Libido Enhancement", "Stress Reduction", "Body Composition"],
-    "treatsSymptoms": ["Low Testosterone Symptoms", "Low Libido", "Fatigue", "Cortisol Elevation"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Testosterone Support",
+      "Libido Enhancement",
+      "Stress Reduction",
+      "Body Composition"
+    ],
+    "treatsSymptoms": [
+      "Low Testosterone Symptoms",
+      "Low Libido",
+      "Fatigue",
+      "Cortisol Elevation"
+    ],
     "contraindications": "Caution in hormone-sensitive conditions. May lower blood sugar. Avoid with immunosuppressants.",
     "timingRules": "AM with breakfast. 200-400mg standardized extract. Cycle 5 days on, 2 off.",
-    "knownSynergies": ["Fadogia Agrestis", "Ashwagandha (Withania somnifera)", "Zinc"]
+    "knownSynergies": [
+      "Fadogia Agrestis",
+      "Ashwagandha (Withania somnifera)",
+      "Zinc"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-047",
     "compoundName": "Fadogia Agrestis",
     "category": "Botanical",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Testosterone Support", "Libido Enhancement", "Luteinizing Hormone Increase"],
-    "treatsSymptoms": ["Low Testosterone Symptoms", "Low Libido", "Fertility Concerns"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Testosterone Support",
+      "Libido Enhancement",
+      "Luteinizing Hormone Increase"
+    ],
+    "treatsSymptoms": [
+      "Low Testosterone Symptoms",
+      "Low Libido",
+      "Fertility Concerns"
+    ],
     "contraindications": "Testicular toxicity at high doses in animal studies. Cycle strictly. Monitor liver enzymes.",
     "timingRules": "AM dosing. Max 600mg/day. Cycle 8 weeks on, 4 weeks off. Monitor bloodwork.",
-    "knownSynergies": ["Tongkat Ali (Eurycoma longifolia)", "Boron", "Zinc"]
+    "knownSynergies": [
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Boron",
+      "Zinc"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-048",
     "compoundName": "Boron",
     "category": "Trace Mineral",
     "halfLifeHours": 21,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Free Testosterone Increase", "Bone Health", "Estrogen Metabolism", "Joint Health"],
-    "treatsSymptoms": ["Low Free Testosterone", "Osteoporosis Risk", "Joint Stiffness", "Vitamin D Insufficiency"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Free Testosterone Increase",
+      "Bone Health",
+      "Estrogen Metabolism",
+      "Joint Health"
+    ],
+    "treatsSymptoms": [
+      "Low Free Testosterone",
+      "Osteoporosis Risk",
+      "Joint Stiffness",
+      "Vitamin D Insufficiency"
+    ],
     "contraindications": "Toxicity above 20mg/day. Renal impairment increases risk.",
     "timingRules": "6-10mg daily with food. Consistent daily dosing.",
-    "knownSynergies": ["Vitamin D3 + K2 (MK-7)", "Tongkat Ali (Eurycoma longifolia)", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "Vitamin D3 + K2 (MK-7)",
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-049",
     "compoundName": "Zinc (Picolinate)",
     "category": "Essential Mineral",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Immune Function", "Testosterone Support", "Wound Healing", "Thyroid Function"],
-    "treatsSymptoms": ["Zinc Deficiency", "Immune Weakness", "Acne", "Low Testosterone"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Immune Function",
+      "Testosterone Support",
+      "Wound Healing",
+      "Thyroid Function"
+    ],
+    "treatsSymptoms": [
+      "Zinc Deficiency",
+      "Immune Weakness",
+      "Acne",
+      "Low Testosterone"
+    ],
     "contraindications": "Copper depletion with chronic use — supplement copper. Avoid taking with iron simultaneously.",
     "timingRules": "Take with food to avoid nausea. 15-30mg daily. Pair with copper (2mg) long-term.",
-    "knownSynergies": ["Vitamin D3 + K2 (MK-7)", "Tongkat Ali (Eurycoma longifolia)", "Copper"]
+    "knownSynergies": [
+      "Vitamin D3 + K2 (MK-7)",
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Copper"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-050",
     "compoundName": "DHEA (Micronized)",
     "category": "Hormone / Prohormone",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral", "Topical"],
-    "supportsGoals": ["Hormone Balance", "Anti-Aging", "Adrenal Support", "Immune Function"],
-    "treatsSymptoms": ["Adrenal Insufficiency", "Age-Related Hormone Decline", "Low Libido", "Fatigue"],
+    "administrationRoute": [
+      "Oral",
+      "Topical"
+    ],
+    "supportsGoals": [
+      "Hormone Balance",
+      "Anti-Aging",
+      "Adrenal Support",
+      "Immune Function"
+    ],
+    "treatsSymptoms": [
+      "Adrenal Insufficiency",
+      "Age-Related Hormone Decline",
+      "Low Libido",
+      "Fatigue"
+    ],
     "contraindications": "Hormone-sensitive cancers. May convert to estrogen or testosterone unpredictably. Monitor via bloodwork.",
     "timingRules": "AM dosing mimics natural rhythm. 25-50mg for men, 10-25mg for women. Test DHEA-S levels.",
-    "knownSynergies": ["Pregnenolone", "Vitamin D3 + K2 (MK-7)", "Ashwagandha (Withania somnifera)"]
+    "knownSynergies": [
+      "Pregnenolone",
+      "Vitamin D3 + K2 (MK-7)",
+      "Ashwagandha (Withania somnifera)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-051",
     "compoundName": "Pregnenolone",
     "category": "Hormone / Neurosteroid",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Hormone Balance", "Cognitive Enhancement", "Mood Support", "Neurosteroid Production"],
-    "treatsSymptoms": ["Brain Fog", "Hormone Decline", "Depression", "Memory Loss"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Hormone Balance",
+      "Cognitive Enhancement",
+      "Mood Support",
+      "Neurosteroid Production"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Hormone Decline",
+      "Depression",
+      "Memory Loss"
+    ],
     "contraindications": "Hormone-sensitive conditions. May convert to progesterone, DHEA, or cortisol. Unpredictable downstream effects.",
     "timingRules": "AM sublingual for cognitive effects. 10-50mg. Test serum levels regularly.",
-    "knownSynergies": ["DHEA (Micronized)", "Vitamin D3 + K2 (MK-7)", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "DHEA (Micronized)",
+      "Vitamin D3 + K2 (MK-7)",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-052",
     "compoundName": "Ipamorelin",
     "category": "Peptide / Growth Hormone Secretagogue",
     "halfLifeHours": 2,
-    "administrationRoute": ["Subcutaneous Injection"],
-    "supportsGoals": ["Growth Hormone Release", "Fat Loss", "Muscle Recovery", "Anti-Aging"],
-    "treatsSymptoms": ["GH Deficiency", "Poor Recovery", "Age-Related Muscle Loss", "Slow Wound Healing"],
+    "administrationRoute": [
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Growth Hormone Release",
+      "Fat Loss",
+      "Muscle Recovery",
+      "Anti-Aging"
+    ],
+    "treatsSymptoms": [
+      "GH Deficiency",
+      "Poor Recovery",
+      "Age-Related Muscle Loss",
+      "Slow Wound Healing"
+    ],
     "contraindications": "Active cancer. Pituitary tumors. Diabetes (may alter glucose). Not for use under 25.",
     "timingRules": "Inject before bed on empty stomach (2hr post-meal). Fasted state critical for GH pulse.",
-    "knownSynergies": ["CJC-1295 (No DAC)", "GHRP-6", "MK-677"]
+    "knownSynergies": [
+      "CJC-1295 (No DAC)",
+      "GHRP-6",
+      "MK-677"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-053",
     "compoundName": "CJC-1295 (No DAC)",
     "category": "Peptide / Growth Hormone Secretagogue",
     "halfLifeHours": 0.5,
-    "administrationRoute": ["Subcutaneous Injection"],
-    "supportsGoals": ["Growth Hormone Release", "Deep Sleep", "Fat Loss", "Recovery"],
-    "treatsSymptoms": ["GH Deficiency", "Poor Sleep Quality", "Age-Related Decline", "Slow Recovery"],
+    "administrationRoute": [
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Growth Hormone Release",
+      "Deep Sleep",
+      "Fat Loss",
+      "Recovery"
+    ],
+    "treatsSymptoms": [
+      "GH Deficiency",
+      "Poor Sleep Quality",
+      "Age-Related Decline",
+      "Slow Recovery"
+    ],
     "contraindications": "Active malignancy. Pituitary disorders. Avoid in pregnancy.",
     "timingRules": "Pre-bed injection. Fasted 2+ hours. Combine with Ipamorelin for synergistic GH pulse.",
-    "knownSynergies": ["Ipamorelin", "MK-677", "GHRP-2"]
+    "knownSynergies": [
+      "Ipamorelin",
+      "MK-677",
+      "GHRP-2"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-054",
     "compoundName": "MK-677 (Ibutamoren)",
     "category": "Growth Hormone Secretagogue",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Growth Hormone Release", "Sleep Quality", "Muscle Growth", "Bone Density"],
-    "treatsSymptoms": ["GH Deficiency", "Insomnia", "Muscle Wasting", "Osteoporosis Risk"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Growth Hormone Release",
+      "Sleep Quality",
+      "Muscle Growth",
+      "Bone Density"
+    ],
+    "treatsSymptoms": [
+      "GH Deficiency",
+      "Insomnia",
+      "Muscle Wasting",
+      "Osteoporosis Risk"
+    ],
     "contraindications": "Insulin resistance risk with chronic use. Increases appetite significantly. Diabetes contraindicated.",
     "timingRules": "Take before bed. Monitor fasting glucose regularly. Cycle 8 weeks on, 4 off.",
-    "knownSynergies": ["Ipamorelin", "CJC-1295 (No DAC)", "Berberine"]
+    "knownSynergies": [
+      "Ipamorelin",
+      "CJC-1295 (No DAC)",
+      "Berberine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-055",
     "compoundName": "IGF-1 LR3",
     "category": "Peptide / Growth Factor",
     "halfLifeHours": 24,
-    "administrationRoute": ["Subcutaneous Injection", "Intramuscular Injection"],
-    "supportsGoals": ["Muscle Hypertrophy", "Recovery", "Anabolic Signaling", "Tissue Growth"],
-    "treatsSymptoms": ["Muscle Wasting", "Poor Recovery", "Growth Factor Deficiency"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Intramuscular Injection"
+    ],
+    "supportsGoals": [
+      "Muscle Hypertrophy",
+      "Recovery",
+      "Anabolic Signaling",
+      "Tissue Growth"
+    ],
+    "treatsSymptoms": [
+      "Muscle Wasting",
+      "Poor Recovery",
+      "Growth Factor Deficiency"
+    ],
     "contraindications": "SEVERE: Cancer risk — promotes cell proliferation indiscriminately. Hypoglycemia risk. Requires medical supervision.",
     "timingRules": "Post-workout injection. Monitor blood glucose. Short cycles only (4 weeks max).",
-    "knownSynergies": ["TB-500", "BPC-157", "Ipamorelin"]
+    "knownSynergies": [
+      "TB-500",
+      "BPC-157",
+      "Ipamorelin"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-056",
     "compoundName": "Thymosin Alpha-1",
     "category": "Peptide / Immunomodulator",
     "halfLifeHours": 2,
-    "administrationRoute": ["Subcutaneous Injection"],
-    "supportsGoals": ["Immune Enhancement", "Infection Resistance", "Vaccine Response", "Anti-Cancer Support"],
-    "treatsSymptoms": ["Chronic Infections", "Immune Deficiency", "Hepatitis B/C", "Post-Viral Fatigue"],
+    "administrationRoute": [
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Immune Enhancement",
+      "Infection Resistance",
+      "Vaccine Response",
+      "Anti-Cancer Support"
+    ],
+    "treatsSymptoms": [
+      "Chronic Infections",
+      "Immune Deficiency",
+      "Hepatitis B/C",
+      "Post-Viral Fatigue"
+    ],
     "contraindications": "Caution in autoimmune conditions (may exacerbate). Limited data in pregnancy.",
     "timingRules": "1.6mg SC injection 2x/week. Can use daily during acute infection.",
-    "knownSynergies": ["Thymosin Beta-4 (TB-500)", "Zinc (Picolinate)", "Vitamin C"]
+    "knownSynergies": [
+      "Thymosin Beta-4 (TB-500)",
+      "Zinc (Picolinate)",
+      "Vitamin C"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-057",
     "compoundName": "PT-141 (Bremelanotide)",
     "category": "Peptide / Melanocortin Agonist",
     "halfLifeHours": 4,
-    "administrationRoute": ["Subcutaneous Injection", "Intranasal"],
-    "supportsGoals": ["Sexual Arousal", "Libido Enhancement", "Erectile Function"],
-    "treatsSymptoms": ["Hypoactive Sexual Desire", "Erectile Dysfunction", "Female Sexual Dysfunction"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Sexual Arousal",
+      "Libido Enhancement",
+      "Erectile Function"
+    ],
+    "treatsSymptoms": [
+      "Hypoactive Sexual Desire",
+      "Erectile Dysfunction",
+      "Female Sexual Dysfunction"
+    ],
     "contraindications": "Uncontrolled hypertension. Nausea is common. Max 8 doses/month. Avoid with cardiovascular disease.",
     "timingRules": "SC injection 45 min before activity. Do not exceed 1 dose per 24 hours.",
-    "knownSynergies": ["Citrulline Malate", "Tongkat Ali (Eurycoma longifolia)"]
+    "knownSynergies": [
+      "Citrulline Malate",
+      "Tongkat Ali (Eurycoma longifolia)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-058",
     "compoundName": "Cerebrolysin",
     "category": "Peptide / Neurotrophic",
     "halfLifeHours": 1,
-    "administrationRoute": ["Intramuscular Injection", "IV Infusion"],
-    "supportsGoals": ["Neuroprotection", "Stroke Recovery", "Cognitive Enhancement", "TBI Recovery"],
-    "treatsSymptoms": ["Stroke Sequelae", "TBI Symptoms", "Alzheimer's Symptoms", "Cognitive Decline"],
+    "administrationRoute": [
+      "Intramuscular Injection",
+      "IV Infusion"
+    ],
+    "supportsGoals": [
+      "Neuroprotection",
+      "Stroke Recovery",
+      "Cognitive Enhancement",
+      "TBI Recovery"
+    ],
+    "treatsSymptoms": [
+      "Stroke Sequelae",
+      "TBI Symptoms",
+      "Alzheimer's Symptoms",
+      "Cognitive Decline"
+    ],
     "contraindications": "Epilepsy (lowers seizure threshold). Renal failure. Allergic reactions to porcine-derived products.",
     "timingRules": "IM or slow IV. Clinical protocols: 10-30ml daily for 10-20 day courses.",
-    "knownSynergies": ["Semax", "Noopept", "Cortexin"]
+    "knownSynergies": [
+      "Semax",
+      "Noopept",
+      "Cortexin"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-059",
     "compoundName": "Cortexin",
     "category": "Peptide / Nootropic",
     "halfLifeHours": 1,
-    "administrationRoute": ["Intramuscular Injection"],
-    "supportsGoals": ["Neuroprotection", "Cognitive Enhancement", "Brain Recovery", "Focus"],
-    "treatsSymptoms": ["TBI Symptoms", "Cognitive Decline", "Encephalopathy", "Neurodevelopmental Delay"],
+    "administrationRoute": [
+      "Intramuscular Injection"
+    ],
+    "supportsGoals": [
+      "Neuroprotection",
+      "Cognitive Enhancement",
+      "Brain Recovery",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "TBI Symptoms",
+      "Cognitive Decline",
+      "Encephalopathy",
+      "Neurodevelopmental Delay"
+    ],
     "contraindications": "Allergy to animal-derived peptides. Limited Western clinical data.",
     "timingRules": "IM injection AM for 10 days. Repeat course every 3-6 months.",
-    "knownSynergies": ["Cerebrolysin", "Semax", "Noopept"]
+    "knownSynergies": [
+      "Cerebrolysin",
+      "Semax",
+      "Noopept"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-060",
     "compoundName": "Semaglutide (Low-Dose)",
     "category": "GLP-1 Receptor Agonist",
     "halfLifeHours": 168,
-    "administrationRoute": ["Subcutaneous Injection"],
-    "supportsGoals": ["Weight Loss", "Appetite Regulation", "Insulin Sensitivity", "Cardiovascular Risk Reduction"],
-    "treatsSymptoms": ["Obesity", "Type 2 Diabetes", "Metabolic Syndrome", "Food Addiction Behavior"],
+    "administrationRoute": [
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Weight Loss",
+      "Appetite Regulation",
+      "Insulin Sensitivity",
+      "Cardiovascular Risk Reduction"
+    ],
+    "treatsSymptoms": [
+      "Obesity",
+      "Type 2 Diabetes",
+      "Metabolic Syndrome",
+      "Food Addiction Behavior"
+    ],
     "contraindications": "Medullary thyroid carcinoma history/family. Pancreatitis risk. Gallbladder disease. Not for Type 1 diabetes.",
     "timingRules": "Weekly injection. Titrate slowly over 16 weeks. Stay hydrated.",
-    "knownSynergies": ["Metformin", "Berberine", "Chromium Picolinate"]
+    "knownSynergies": [
+      "Metformin",
+      "Berberine",
+      "Chromium Picolinate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-061",
     "compoundName": "Taurine",
     "category": "Amino Acid",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cardiovascular Health", "Electrolyte Balance", "Neuroprotection", "Longevity"],
-    "treatsSymptoms": ["Heart Failure Symptoms", "Muscle Cramps", "Anxiety", "Exercise Recovery Delay"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cardiovascular Health",
+      "Electrolyte Balance",
+      "Neuroprotection",
+      "Longevity"
+    ],
+    "treatsSymptoms": [
+      "Heart Failure Symptoms",
+      "Muscle Cramps",
+      "Anxiety",
+      "Exercise Recovery Delay"
+    ],
     "contraindications": "Generally very safe. May potentiate sedative medications.",
     "timingRules": "1-3g daily. Can split AM/PM. Pre-workout for performance benefit.",
-    "knownSynergies": ["Magnesium Glycinate", "Electrolytes", "Beta-Alanine"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "Electrolytes",
+      "Beta-Alanine"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-062",
     "compoundName": "GABA (Pharma-Grade)",
     "category": "Amino Acid / Neurotransmitter",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Calm", "Sleep Induction", "GH Release", "Anxiety Reduction"],
-    "treatsSymptoms": ["Anxiety", "Insomnia", "Muscle Tension", "Stress"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Calm",
+      "Sleep Induction",
+      "GH Release",
+      "Anxiety Reduction"
+    ],
+    "treatsSymptoms": [
+      "Anxiety",
+      "Insomnia",
+      "Muscle Tension",
+      "Stress"
+    ],
     "contraindications": "Limited BBB penetration orally. Avoid with benzodiazepines and barbiturates. Sedation potentiation.",
     "timingRules": "500-1000mg sublingual before bed. Or 30 min pre-workout for GH pulse.",
-    "knownSynergies": ["L-Theanine", "Magnesium Glycinate", "Phenibut"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Magnesium Glycinate",
+      "Phenibut"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-063",
     "compoundName": "Phenibut",
     "category": "GABAergic / Nootropic",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anxiety Reduction", "Social Confidence", "Sleep Quality", "Mood Enhancement"],
-    "treatsSymptoms": ["Social Anxiety", "Insomnia", "PTSD Symptoms", "Performance Anxiety"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anxiety Reduction",
+      "Social Confidence",
+      "Sleep Quality",
+      "Mood Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Social Anxiety",
+      "Insomnia",
+      "PTSD Symptoms",
+      "Performance Anxiety"
+    ],
     "contraindications": "HIGH ADDICTION POTENTIAL. Severe withdrawal (seizures). Never combine with alcohol, benzodiazepines, or other GABAergic drugs. Max 2x/week.",
     "timingRules": "Empty stomach AM for anxiolytic effect. Max 2 doses/week. Never consecutive days.",
-    "knownSynergies": ["L-Theanine", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-064",
     "compoundName": "Uridine Monophosphate",
     "category": "Nucleotide / Nootropic",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Dopamine Receptor Upregulation", "Synaptic Plasticity", "Mood Support", "Memory"],
-    "treatsSymptoms": ["Anhedonia", "Dopamine Downregulation", "Brain Fog", "Depressive Symptoms"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Dopamine Receptor Upregulation",
+      "Synaptic Plasticity",
+      "Mood Support",
+      "Memory"
+    ],
+    "treatsSymptoms": [
+      "Anhedonia",
+      "Dopamine Downregulation",
+      "Brain Fog",
+      "Depressive Symptoms"
+    ],
     "contraindications": "May cause GI upset. Theoretical gout risk at very high doses (purine metabolism).",
     "timingRules": "Sublingual AM. Part of the Mr. Happy Stack (Uridine + DHA + Choline).",
-    "knownSynergies": ["DHA", "Alpha-GPC", "B-Complex"]
+    "knownSynergies": [
+      "DHA",
+      "Alpha-GPC",
+      "B-Complex"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-065",
     "compoundName": "DHA (Docosahexaenoic Acid)",
     "category": "Essential Fatty Acid",
     "halfLifeHours": 48,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Brain Structure", "Retinal Health", "Neuroprotection", "Membrane Fluidity"],
-    "treatsSymptoms": ["Cognitive Decline", "Depression", "ADHD Symptoms", "Dry Eyes"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Brain Structure",
+      "Retinal Health",
+      "Neuroprotection",
+      "Membrane Fluidity"
+    ],
+    "treatsSymptoms": [
+      "Cognitive Decline",
+      "Depression",
+      "ADHD Symptoms",
+      "Dry Eyes"
+    ],
     "contraindications": "Anticoagulant potentiation. Fish allergy (if fish-derived). Algal DHA available.",
     "timingRules": "1-2g daily with meals. Algal form for vegan option.",
-    "knownSynergies": ["Uridine Monophosphate", "Alpha-GPC", "Bacopa Monnieri"]
+    "knownSynergies": [
+      "Uridine Monophosphate",
+      "Alpha-GPC",
+      "Bacopa Monnieri"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-066",
     "compoundName": "Cordyceps Militaris",
     "category": "Botanical / Fungal",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Endurance", "Oxygen Utilization", "ATP Production", "Libido Enhancement"],
-    "treatsSymptoms": ["Exercise Fatigue", "Low Stamina", "Altitude Sickness", "Low Libido"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Endurance",
+      "Oxygen Utilization",
+      "ATP Production",
+      "Libido Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Exercise Fatigue",
+      "Low Stamina",
+      "Altitude Sickness",
+      "Low Libido"
+    ],
     "contraindications": "Caution with anticoagulants and immunosuppressants. Mushroom allergy.",
     "timingRules": "AM dosing or 1 hour pre-workout. 1-3g daily.",
-    "knownSynergies": ["Rhodiola Rosea", "Beta-Alanine", "CoQ10 (Ubiquinol)"]
+    "knownSynergies": [
+      "Rhodiola Rosea",
+      "Beta-Alanine",
+      "CoQ10 (Ubiquinol)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-067",
     "compoundName": "Reishi (Ganoderma lucidum)",
     "category": "Botanical / Fungal",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Immune Modulation", "Sleep Quality", "Stress Reduction", "Anti-Cancer Support"],
-    "treatsSymptoms": ["Insomnia", "Immune Dysregulation", "Anxiety", "Chronic Fatigue"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Immune Modulation",
+      "Sleep Quality",
+      "Stress Reduction",
+      "Anti-Cancer Support"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Immune Dysregulation",
+      "Anxiety",
+      "Chronic Fatigue"
+    ],
     "contraindications": "Anticoagulant interaction. Hepatotoxicity reports at high doses. Avoid pre-surgery.",
     "timingRules": "Evening dosing for sleep benefit. 1-2g dual extract. Cycle monthly.",
-    "knownSynergies": ["Lion's Mane (Hericium erinaceus)", "Ashwagandha (Withania somnifera)", "Turkey Tail"]
+    "knownSynergies": [
+      "Lion's Mane (Hericium erinaceus)",
+      "Ashwagandha (Withania somnifera)",
+      "Turkey Tail"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-068",
     "compoundName": "Turkey Tail (Trametes versicolor)",
     "category": "Botanical / Fungal",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Gut Microbiome Support", "Immune Enhancement", "Anti-Cancer Support", "Prebiotic Function"],
-    "treatsSymptoms": ["Immune Weakness", "Gut Dysbiosis", "Post-Chemotherapy Recovery", "Chronic Infections"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Gut Microbiome Support",
+      "Immune Enhancement",
+      "Anti-Cancer Support",
+      "Prebiotic Function"
+    ],
+    "treatsSymptoms": [
+      "Immune Weakness",
+      "Gut Dysbiosis",
+      "Post-Chemotherapy Recovery",
+      "Chronic Infections"
+    ],
     "contraindications": "Mushroom allergy. Caution with immunosuppressants.",
     "timingRules": "2-3g daily with meals. Can take consistently long-term.",
-    "knownSynergies": ["Reishi (Ganoderma lucidum)", "Probiotics", "Vitamin C"]
+    "knownSynergies": [
+      "Reishi (Ganoderma lucidum)",
+      "Probiotics",
+      "Vitamin C"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-069",
     "compoundName": "Spermidine",
     "category": "Polyamine / Longevity",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Autophagy Induction", "Anti-Aging", "Cardiovascular Health", "Hair Growth"],
-    "treatsSymptoms": ["Accelerated Aging", "Cellular Waste Accumulation", "Hair Thinning", "Cardiovascular Risk"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Autophagy Induction",
+      "Anti-Aging",
+      "Cardiovascular Health",
+      "Hair Growth"
+    ],
+    "treatsSymptoms": [
+      "Accelerated Aging",
+      "Cellular Waste Accumulation",
+      "Hair Thinning",
+      "Cardiovascular Risk"
+    ],
     "contraindications": "Generally safe. Avoid mega-dosing. Monitor in histamine-sensitive individuals.",
     "timingRules": "AM with breakfast. 1-5mg daily. Can combine with intermittent fasting protocol.",
-    "knownSynergies": ["Fisetin", "NAD+ Precursor (NMN)", "Resveratrol"]
+    "knownSynergies": [
+      "Fisetin",
+      "NAD+ Precursor (NMN)",
+      "Resveratrol"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-070",
     "compoundName": "Nicotine (Transdermal Microdose)",
     "category": "Alkaloid / Cholinergic",
     "halfLifeHours": 2,
-    "administrationRoute": ["Transdermal"],
-    "supportsGoals": ["Focus", "Cognitive Enhancement", "Neuroprotection", "Appetite Suppression"],
-    "treatsSymptoms": ["Brain Fog", "ADHD Symptoms", "Cognitive Fatigue", "Ulcerative Colitis"],
+    "administrationRoute": [
+      "Transdermal"
+    ],
+    "supportsGoals": [
+      "Focus",
+      "Cognitive Enhancement",
+      "Neuroprotection",
+      "Appetite Suppression"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "ADHD Symptoms",
+      "Cognitive Fatigue",
+      "Ulcerative Colitis"
+    ],
     "contraindications": "ADDICTION RISK even at microdoses. Cardiovascular strain. Not for smokers/vapers. Adolescents contraindicated.",
     "timingRules": "1-2mg transdermal patch (cut to size). AM only. Max 3x/week. Never daily.",
-    "knownSynergies": ["Alpha-GPC", "L-Theanine", "Caffeine (Anhydrous)"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "L-Theanine",
+      "Caffeine (Anhydrous)"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-071",
     "compoundName": "Palmitoylethanolamide (PEA)",
     "category": "Fatty Acid Amide / Anti-Inflammatory",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Pain Reduction", "Anti-Inflammation", "Neuroprotection", "Immune Modulation"],
-    "treatsSymptoms": ["Chronic Pain", "Neuropathic Pain", "Inflammation", "Fibromyalgia Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Pain Reduction",
+      "Anti-Inflammation",
+      "Neuroprotection",
+      "Immune Modulation"
+    ],
+    "treatsSymptoms": [
+      "Chronic Pain",
+      "Neuropathic Pain",
+      "Inflammation",
+      "Fibromyalgia Symptoms"
+    ],
     "contraindications": "Generally very safe. May potentiate other analgesics.",
     "timingRules": "300-600mg 2x daily. Micronized form for better absorption. Effects build over 2-4 weeks.",
-    "knownSynergies": ["Curcumin (BCM-95 or Longvida)", "Omega-3 (EPA/DHA)", "Boswellia Serrata"]
+    "knownSynergies": [
+      "Curcumin (BCM-95 or Longvida)",
+      "Omega-3 (EPA/DHA)",
+      "Boswellia Serrata"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-072",
     "compoundName": "Boswellia Serrata",
     "category": "Botanical / Anti-Inflammatory",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anti-Inflammation", "Joint Health", "Gut Health", "Pain Reduction"],
-    "treatsSymptoms": ["Arthritis", "IBD Symptoms", "Asthma", "Chronic Joint Pain"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anti-Inflammation",
+      "Joint Health",
+      "Gut Health",
+      "Pain Reduction"
+    ],
+    "treatsSymptoms": [
+      "Arthritis",
+      "IBD Symptoms",
+      "Asthma",
+      "Chronic Joint Pain"
+    ],
     "contraindications": "May potentiate anticoagulants. Rare hepatotoxicity at high doses.",
     "timingRules": "Take with meals. AKBA-standardized extract preferred. 300-500mg 2-3x daily.",
-    "knownSynergies": ["Curcumin (BCM-95 or Longvida)", "Omega-3 (EPA/DHA)", "Palmitoylethanolamide (PEA)"]
+    "knownSynergies": [
+      "Curcumin (BCM-95 or Longvida)",
+      "Omega-3 (EPA/DHA)",
+      "Palmitoylethanolamide (PEA)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-073",
     "compoundName": "Shilajit (Purified)",
     "category": "Mineral Pitch / Adaptogen",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Testosterone Support", "Mitochondrial Function", "Mineral Absorption", "Energy"],
-    "treatsSymptoms": ["Fatigue", "Mineral Deficiency", "Low Testosterone", "Altitude Sickness"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Testosterone Support",
+      "Mitochondrial Function",
+      "Mineral Absorption",
+      "Energy"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Mineral Deficiency",
+      "Low Testosterone",
+      "Altitude Sickness"
+    ],
     "contraindications": "Heavy metal contamination risk in unpurified forms. Avoid in gout (uric acid). Iron overload conditions.",
     "timingRules": "AM with warm water. 300-500mg purified resin form. Dissolve fully before consuming.",
-    "knownSynergies": ["CoQ10 (Ubiquinol)", "Tongkat Ali (Eurycoma longifolia)", "Ashwagandha (Withania somnifera)"]
+    "knownSynergies": [
+      "CoQ10 (Ubiquinol)",
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Ashwagandha (Withania somnifera)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-074",
     "compoundName": "Ginkgo Biloba",
     "category": "Botanical / Nootropic",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cerebral Blood Flow", "Memory Enhancement", "Neuroprotection", "Visual Function"],
-    "treatsSymptoms": ["Memory Decline", "Tinnitus", "Peripheral Vascular Disease", "Macular Degeneration"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cerebral Blood Flow",
+      "Memory Enhancement",
+      "Neuroprotection",
+      "Visual Function"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Tinnitus",
+      "Peripheral Vascular Disease",
+      "Macular Degeneration"
+    ],
     "contraindications": "Significant anticoagulant interaction — avoid with blood thinners. Seizure threshold lowering.",
     "timingRules": "120-240mg standardized extract. Split AM/PM. EGb 761 extract preferred.",
-    "knownSynergies": ["Bacopa Monnieri", "Vinpocetine", "Phosphatidylserine"]
+    "knownSynergies": [
+      "Bacopa Monnieri",
+      "Vinpocetine",
+      "Phosphatidylserine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-075",
     "compoundName": "Phosphatidylserine",
     "category": "Phospholipid / Nootropic",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cortisol Reduction", "Memory Enhancement", "Cognitive Function", "Exercise Recovery"],
-    "treatsSymptoms": ["Elevated Cortisol", "Memory Decline", "ADHD Symptoms", "Exercise-Induced Cortisol"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cortisol Reduction",
+      "Memory Enhancement",
+      "Cognitive Function",
+      "Exercise Recovery"
+    ],
+    "treatsSymptoms": [
+      "Elevated Cortisol",
+      "Memory Decline",
+      "ADHD Symptoms",
+      "Exercise-Induced Cortisol"
+    ],
     "contraindications": "May potentiate anticoagulants. Soy-derived versions: soy allergy caution.",
     "timingRules": "100mg 3x daily or 300mg pre-bed for cortisol. Sunflower-derived preferred.",
-    "knownSynergies": ["DHA", "Ginkgo Biloba", "Alpha-GPC"]
+    "knownSynergies": [
+      "DHA",
+      "Ginkgo Biloba",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-076",
     "compoundName": "Astaxanthin",
     "category": "Carotenoid / Antioxidant",
     "halfLifeHours": 16,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Antioxidant Defense", "Skin Protection", "Eye Health", "Endurance"],
-    "treatsSymptoms": ["UV Damage", "Eye Strain", "Oxidative Stress", "Exercise-Induced Oxidative Damage"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Antioxidant Defense",
+      "Skin Protection",
+      "Eye Health",
+      "Endurance"
+    ],
+    "treatsSymptoms": [
+      "UV Damage",
+      "Eye Strain",
+      "Oxidative Stress",
+      "Exercise-Induced Oxidative Damage"
+    ],
     "contraindications": "May lower blood pressure — caution with antihypertensives. Caution with hormonal agents.",
     "timingRules": "4-12mg with fat-containing meal. Consistent daily dosing.",
-    "knownSynergies": ["Omega-3 (EPA/DHA)", "Vitamin C", "Vitamin E (Tocotrienols)"]
+    "knownSynergies": [
+      "Omega-3 (EPA/DHA)",
+      "Vitamin C",
+      "Vitamin E (Tocotrienols)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-077",
     "compoundName": "Vitamin C (Liposomal)",
     "category": "Vitamin / Antioxidant",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral", "IV Infusion"],
-    "supportsGoals": ["Immune Support", "Collagen Synthesis", "Antioxidant Defense", "Iron Absorption"],
-    "treatsSymptoms": ["Immune Weakness", "Scurvy", "Wound Healing Delay", "Oxidative Stress"],
+    "administrationRoute": [
+      "Oral",
+      "IV Infusion"
+    ],
+    "supportsGoals": [
+      "Immune Support",
+      "Collagen Synthesis",
+      "Antioxidant Defense",
+      "Iron Absorption"
+    ],
+    "treatsSymptoms": [
+      "Immune Weakness",
+      "Scurvy",
+      "Wound Healing Delay",
+      "Oxidative Stress"
+    ],
     "contraindications": "Oxalate kidney stone risk at very high doses. G6PD deficiency (IV). Hemochromatosis (enhances iron absorption).",
     "timingRules": "Liposomal form for high-dose oral. Split doses throughout day. IV: clinical setting only.",
-    "knownSynergies": ["Collagen Peptides (Type I/III)", "N-Acetyl Cysteine (NAC)", "Zinc (Picolinate)"]
+    "knownSynergies": [
+      "Collagen Peptides (Type I/III)",
+      "N-Acetyl Cysteine (NAC)",
+      "Zinc (Picolinate)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-078",
     "compoundName": "Iodine (Lugol's / Nascent)",
     "category": "Essential Mineral / Halogen",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Thyroid Function", "Detoxification", "Breast Health", "Metabolic Rate"],
-    "treatsSymptoms": ["Hypothyroidism", "Iodine Deficiency", "Fibrocystic Breast Disease", "Brain Fog"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Thyroid Function",
+      "Detoxification",
+      "Breast Health",
+      "Metabolic Rate"
+    ],
+    "treatsSymptoms": [
+      "Hypothyroidism",
+      "Iodine Deficiency",
+      "Fibrocystic Breast Disease",
+      "Brain Fog"
+    ],
     "contraindications": "Hashimoto's thyroiditis (may worsen). Excess iodine: thyroid storm risk. Monitor TSH closely.",
     "timingRules": "AM dosing. Start low (150mcg) and titrate. Pair with selenium for thyroid protection.",
-    "knownSynergies": ["Selenium", "Tyrosine", "Vitamin C (Liposomal)"]
+    "knownSynergies": [
+      "Selenium",
+      "Tyrosine",
+      "Vitamin C (Liposomal)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-079",
     "compoundName": "Selenium (Selenomethionine)",
     "category": "Essential Mineral",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Thyroid Protection", "Antioxidant Defense", "Immune Function", "Detoxification"],
-    "treatsSymptoms": ["Thyroid Dysfunction", "Oxidative Stress", "Immune Weakness", "Mercury Exposure"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Thyroid Protection",
+      "Antioxidant Defense",
+      "Immune Function",
+      "Detoxification"
+    ],
+    "treatsSymptoms": [
+      "Thyroid Dysfunction",
+      "Oxidative Stress",
+      "Immune Weakness",
+      "Mercury Exposure"
+    ],
     "contraindications": "Toxicity above 400mcg/day (selenosis). Narrow therapeutic window.",
     "timingRules": "200mcg daily with food. Essential companion to iodine supplementation.",
-    "knownSynergies": ["Iodine (Lugol's / Nascent)", "Vitamin E (Tocotrienols)", "N-Acetyl Cysteine (NAC)"]
+    "knownSynergies": [
+      "Iodine (Lugol's / Nascent)",
+      "Vitamin E (Tocotrienols)",
+      "N-Acetyl Cysteine (NAC)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-080",
     "compoundName": "Magnesium Glycinate",
     "category": "Mineral / Amino Acid Chelate",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Muscle Relaxation", "Sleep Quality", "Anxiety Reduction", "Electrolyte Balance"],
-    "treatsSymptoms": ["Muscle Cramps", "Insomnia", "Anxiety", "Restless Leg Syndrome"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Muscle Relaxation",
+      "Sleep Quality",
+      "Anxiety Reduction",
+      "Electrolyte Balance"
+    ],
+    "treatsSymptoms": [
+      "Muscle Cramps",
+      "Insomnia",
+      "Anxiety",
+      "Restless Leg Syndrome"
+    ],
     "contraindications": "Renal impairment (hypermagnesemia risk). May potentiate muscle relaxants.",
     "timingRules": "200-400mg elemental Mg before bed. Can split dose if GI sensitive.",
-    "knownSynergies": ["Ashwagandha (Withania somnifera)", "L-Theanine", "Taurine", "Vitamin D3 + K2 (MK-7)"]
+    "knownSynergies": [
+      "Ashwagandha (Withania somnifera)",
+      "L-Theanine",
+      "Taurine",
+      "Vitamin D3 + K2 (MK-7)"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-081",
     "compoundName": "Lithium Orotate (Microdose)",
     "category": "Mineral / Mood Stabilizer",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Mood Stabilization", "Neuroprotection", "BDNF Support", "Longevity"],
-    "treatsSymptoms": ["Mood Swings", "Irritability", "Neurodegeneration Risk", "Impulsivity"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Mood Stabilization",
+      "Neuroprotection",
+      "BDNF Support",
+      "Longevity"
+    ],
+    "treatsSymptoms": [
+      "Mood Swings",
+      "Irritability",
+      "Neurodegeneration Risk",
+      "Impulsivity"
+    ],
     "contraindications": "Thyroid suppression at high doses. Kidney function monitoring required. Not interchangeable with prescription lithium carbonate.",
     "timingRules": "5-20mg lithium orotate daily (NOT mg of elemental lithium). AM with food.",
-    "knownSynergies": ["Omega-3 (EPA/DHA)", "Magnesium Glycinate", "B-Complex"]
+    "knownSynergies": [
+      "Omega-3 (EPA/DHA)",
+      "Magnesium Glycinate",
+      "B-Complex"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-082",
     "compoundName": "Tyrosine",
     "category": "Amino Acid",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Dopamine Precursor", "Stress Resilience", "Focus Under Pressure", "Thyroid Support"],
-    "treatsSymptoms": ["Brain Fog", "Stress-Induced Cognitive Decline", "Low Motivation", "Cold Intolerance"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Dopamine Precursor",
+      "Stress Resilience",
+      "Focus Under Pressure",
+      "Thyroid Support"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Stress-Induced Cognitive Decline",
+      "Low Motivation",
+      "Cold Intolerance"
+    ],
     "contraindications": "Avoid with MAOIs (hypertensive crisis — tyramine pathway). Hyperthyroidism. Melanoma (melanin precursor).",
     "timingRules": "500-2000mg AM on empty stomach. 30 min before stressful tasks.",
-    "knownSynergies": ["Iodine (Lugol's / Nascent)", "B6 (P-5-P)", "Caffeine (Anhydrous)"]
+    "knownSynergies": [
+      "Iodine (Lugol's / Nascent)",
+      "B6 (P-5-P)",
+      "Caffeine (Anhydrous)"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-083",
     "compoundName": "5-HTP",
     "category": "Amino Acid / Serotonin Precursor",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Serotonin Production", "Mood Support", "Sleep Quality", "Appetite Regulation"],
-    "treatsSymptoms": ["Depression", "Insomnia", "Carbohydrate Cravings", "Fibromyalgia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Serotonin Production",
+      "Mood Support",
+      "Sleep Quality",
+      "Appetite Regulation"
+    ],
+    "treatsSymptoms": [
+      "Depression",
+      "Insomnia",
+      "Carbohydrate Cravings",
+      "Fibromyalgia"
+    ],
     "contraindications": "NEVER combine with SSRIs/SNRIs/MAOIs — Serotonin Syndrome risk. Avoid with tramadol, triptans.",
     "timingRules": "50-100mg PM for sleep. Always pair with EGCG or green tea to prevent peripheral conversion.",
-    "knownSynergies": ["EGCG", "Magnesium Glycinate", "Vitamin B6"]
+    "knownSynergies": [
+      "EGCG",
+      "Magnesium Glycinate",
+      "Vitamin B6"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-084",
     "compoundName": "Tryptophan",
     "category": "Essential Amino Acid",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Serotonin Precursor", "Sleep Quality", "Mood Support", "Niacin Synthesis"],
-    "treatsSymptoms": ["Insomnia", "Depression", "Anxiety", "Carbohydrate Cravings"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Serotonin Precursor",
+      "Sleep Quality",
+      "Mood Support",
+      "Niacin Synthesis"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Depression",
+      "Anxiety",
+      "Carbohydrate Cravings"
+    ],
     "contraindications": "Same serotonergic cautions as 5-HTP. Avoid combining with SSRIs/MAOIs. Eosinophilia-myalgia syndrome (historical — contamination).",
     "timingRules": "500-1000mg before bed on empty stomach. Separate from protein meals by 2 hours.",
-    "knownSynergies": ["Magnesium Glycinate", "B6 (P-5-P)", "Melatonin"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "B6 (P-5-P)",
+      "Melatonin"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-085",
     "compoundName": "ALCAR (Acetyl-L-Carnitine)",
     "category": "Amino Acid Derivative / Nootropic",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Fat Metabolism", "Cognitive Enhancement", "Mitochondrial Function", "Neuroprotection"],
-    "treatsSymptoms": ["Brain Fog", "Fatigue", "Neuropathy", "Age-Related Cognitive Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Fat Metabolism",
+      "Cognitive Enhancement",
+      "Mitochondrial Function",
+      "Neuroprotection"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Fatigue",
+      "Neuropathy",
+      "Age-Related Cognitive Decline"
+    ],
     "contraindications": "May increase TMAO levels (cardiovascular concern). Seizure threshold lowering in susceptible individuals.",
     "timingRules": "500-1500mg AM on empty stomach. Stimulating — avoid PM dosing.",
-    "knownSynergies": ["Alpha-Lipoic Acid", "CoQ10 (Ubiquinol)", "NAD+ Precursor (NMN)"]
+    "knownSynergies": [
+      "Alpha-Lipoic Acid",
+      "CoQ10 (Ubiquinol)",
+      "NAD+ Precursor (NMN)"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-086",
     "compoundName": "Black Seed Oil (Nigella sativa)",
     "category": "Botanical / Anti-Inflammatory",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Immune Modulation", "Anti-Inflammation", "Blood Sugar Regulation", "Respiratory Health"],
-    "treatsSymptoms": ["Allergies", "Asthma", "Metabolic Syndrome", "Autoimmune Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Immune Modulation",
+      "Anti-Inflammation",
+      "Blood Sugar Regulation",
+      "Respiratory Health"
+    ],
+    "treatsSymptoms": [
+      "Allergies",
+      "Asthma",
+      "Metabolic Syndrome",
+      "Autoimmune Symptoms"
+    ],
     "contraindications": "Anticoagulant potentiation. May enhance effects of diabetes medications. Avoid pre-surgery.",
     "timingRules": "1-2 tsp cold-pressed oil with meals. TQ (thymoquinone) content determines quality.",
-    "knownSynergies": ["Curcumin (BCM-95 or Longvida)", "Quercetin", "Omega-3 (EPA/DHA)"]
+    "knownSynergies": [
+      "Curcumin (BCM-95 or Longvida)",
+      "Quercetin",
+      "Omega-3 (EPA/DHA)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-087",
     "compoundName": "Cistanche Tubulosa",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Testosterone Support", "Cognitive Enhancement", "Anti-Aging", "Gut Immunity"],
-    "treatsSymptoms": ["Low Libido", "Fatigue", "Constipation", "Cognitive Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Testosterone Support",
+      "Cognitive Enhancement",
+      "Anti-Aging",
+      "Gut Immunity"
+    ],
+    "treatsSymptoms": [
+      "Low Libido",
+      "Fatigue",
+      "Constipation",
+      "Cognitive Decline"
+    ],
     "contraindications": "May have estrogenic effects. Avoid in hormone-sensitive conditions.",
     "timingRules": "AM dosing. 100-200mg standardized extract. Can use long-term.",
-    "knownSynergies": ["Tongkat Ali (Eurycoma longifolia)", "Shilajit (Purified)", "Ashwagandha (Withania somnifera)"]
+    "knownSynergies": [
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Shilajit (Purified)",
+      "Ashwagandha (Withania somnifera)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-088",
     "compoundName": "Maca Root (Lepidium meyenii)",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Libido Enhancement", "Hormone Balance", "Energy", "Fertility Support"],
-    "treatsSymptoms": ["Low Libido", "Menopause Symptoms", "Fatigue", "SSRI-Induced Sexual Dysfunction"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Libido Enhancement",
+      "Hormone Balance",
+      "Energy",
+      "Fertility Support"
+    ],
+    "treatsSymptoms": [
+      "Low Libido",
+      "Menopause Symptoms",
+      "Fatigue",
+      "SSRI-Induced Sexual Dysfunction"
+    ],
     "contraindications": "Goitrogenic potential — caution in thyroid conditions. Avoid in hormone-sensitive cancers.",
     "timingRules": "1.5-3g gelatinized powder AM with food. Black maca for male fertility, red for female.",
-    "knownSynergies": ["Tongkat Ali (Eurycoma longifolia)", "Ashwagandha (Withania somnifera)", "Tribulus Terrestris"]
+    "knownSynergies": [
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Ashwagandha (Withania somnifera)",
+      "Tribulus Terrestris"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-089",
     "compoundName": "Agmatine Sulfate",
     "category": "Amino Acid Derivative",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Pain Modulation", "Nitric Oxide Regulation", "Mood Support", "Neuroprotection"],
-    "treatsSymptoms": ["Neuropathic Pain", "Opioid Tolerance", "Depression", "Substance Withdrawal"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Pain Modulation",
+      "Nitric Oxide Regulation",
+      "Mood Support",
+      "Neuroprotection"
+    ],
+    "treatsSymptoms": [
+      "Neuropathic Pain",
+      "Opioid Tolerance",
+      "Depression",
+      "Substance Withdrawal"
+    ],
     "contraindications": "Avoid with high-dose arginine (antagonistic). Blood pressure effects — monitor.",
     "timingRules": "500-1000mg 2-3x daily. Empty stomach. Separate from protein by 1 hour.",
-    "knownSynergies": ["Citrulline Malate", "NAC", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "Citrulline Malate",
+      "NAC",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-090",
     "compoundName": "Theacrine (TeaCrine)",
     "category": "Alkaloid / Purine",
     "halfLifeHours": 20,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Sustained Energy", "Focus", "Motivation", "Non-Habituating Stimulation"],
-    "treatsSymptoms": ["Fatigue", "Low Motivation", "Caffeine Tolerance", "Brain Fog"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Sustained Energy",
+      "Focus",
+      "Motivation",
+      "Non-Habituating Stimulation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Low Motivation",
+      "Caffeine Tolerance",
+      "Brain Fog"
+    ],
     "contraindications": "Similar cautions to caffeine but lower risk profile. Avoid late in day.",
     "timingRules": "100-200mg AM. Can combine with caffeine at lower doses. No tolerance buildup observed.",
-    "knownSynergies": ["Caffeine (Anhydrous)", "Dynamine", "L-Theanine"]
+    "knownSynergies": [
+      "Caffeine (Anhydrous)",
+      "Dynamine",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-091",
     "compoundName": "Dynamine (Methylliberine)",
     "category": "Alkaloid / Purine",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Quick Energy", "Focus", "Mood Elevation", "Pre-Workout Boost"],
-    "treatsSymptoms": ["Fatigue", "Low Energy", "Afternoon Slump", "Poor Exercise Motivation"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Quick Energy",
+      "Focus",
+      "Mood Elevation",
+      "Pre-Workout Boost"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Low Energy",
+      "Afternoon Slump",
+      "Poor Exercise Motivation"
+    ],
     "contraindications": "Limited long-term data. Similar caution profile to caffeine.",
     "timingRules": "100-200mg. Fast onset (15 min). Stack with Theacrine for extended curve.",
-    "knownSynergies": ["Theacrine (TeaCrine)", "Caffeine (Anhydrous)", "L-Theanine"]
+    "knownSynergies": [
+      "Theacrine (TeaCrine)",
+      "Caffeine (Anhydrous)",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-092",
     "compoundName": "Mucuna Pruriens",
     "category": "Botanical / Dopaminergic",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Dopamine Support", "Mood Enhancement", "Testosterone Support", "Prolactin Reduction"],
-    "treatsSymptoms": ["Low Motivation", "Depression", "Hyperprolactinemia", "Parkinson's Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Dopamine Support",
+      "Mood Enhancement",
+      "Testosterone Support",
+      "Prolactin Reduction"
+    ],
+    "treatsSymptoms": [
+      "Low Motivation",
+      "Depression",
+      "Hyperprolactinemia",
+      "Parkinson's Symptoms"
+    ],
     "contraindications": "Contains L-DOPA — avoid with MAOIs (hypertensive crisis), Dopaminergic drugs, and psychosis. Melanoma concern (L-DOPA → melanin).",
     "timingRules": "AM on empty stomach. 15-30% L-DOPA extract. Cycle 5 days on, 2 off.",
-    "knownSynergies": ["Tyrosine", "B6 (P-5-P)", "Zinc (Picolinate)"]
+    "knownSynergies": [
+      "Tyrosine",
+      "B6 (P-5-P)",
+      "Zinc (Picolinate)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-093",
     "compoundName": "Saffron Extract (Crocus sativus)",
     "category": "Botanical / Mood Enhancer",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Mood Support", "Libido Enhancement", "Appetite Regulation", "Visual Health"],
-    "treatsSymptoms": ["Depression", "PMS Symptoms", "Low Libido", "Macular Degeneration"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Mood Support",
+      "Libido Enhancement",
+      "Appetite Regulation",
+      "Visual Health"
+    ],
+    "treatsSymptoms": [
+      "Depression",
+      "PMS Symptoms",
+      "Low Libido",
+      "Macular Degeneration"
+    ],
     "contraindications": "Avoid in pregnancy at therapeutic doses (uterotonic). Bipolar mania risk. Expensive — adulteration common.",
     "timingRules": "30mg standardized extract daily. AM or split AM/PM.",
-    "knownSynergies": ["Curcumin (BCM-95 or Longvida)", "Omega-3 (EPA/DHA)", "St. John's Wort"]
+    "knownSynergies": [
+      "Curcumin (BCM-95 or Longvida)",
+      "Omega-3 (EPA/DHA)",
+      "St. John's Wort"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-094",
     "compoundName": "Vinpocetine",
     "category": "Alkaloid / Nootropic",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cerebral Blood Flow", "Memory Enhancement", "Neuroprotection", "Hearing Protection"],
-    "treatsSymptoms": ["Cognitive Decline", "Tinnitus", "Visual Impairment", "Cerebrovascular Insufficiency"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cerebral Blood Flow",
+      "Memory Enhancement",
+      "Neuroprotection",
+      "Hearing Protection"
+    ],
+    "treatsSymptoms": [
+      "Cognitive Decline",
+      "Tinnitus",
+      "Visual Impairment",
+      "Cerebrovascular Insufficiency"
+    ],
     "contraindications": "Anticoagulant potentiation. Pregnancy contraindicated (teratogenic). Avoid pre-surgery.",
     "timingRules": "10-20mg 2-3x daily with food. Bioavailability dramatically improves with fat.",
-    "knownSynergies": ["Ginkgo Biloba", "Alpha-GPC", "Piracetam"]
+    "knownSynergies": [
+      "Ginkgo Biloba",
+      "Alpha-GPC",
+      "Piracetam"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-095",
     "compoundName": "Chromium Picolinate",
     "category": "Trace Mineral",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Blood Sugar Regulation", "Insulin Sensitivity", "Carb Craving Reduction", "Body Composition"],
-    "treatsSymptoms": ["Insulin Resistance", "Sugar Cravings", "Metabolic Syndrome", "PCOS Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Blood Sugar Regulation",
+      "Insulin Sensitivity",
+      "Carb Craving Reduction",
+      "Body Composition"
+    ],
+    "treatsSymptoms": [
+      "Insulin Resistance",
+      "Sugar Cravings",
+      "Metabolic Syndrome",
+      "PCOS Symptoms"
+    ],
     "contraindications": "Renal disease. High doses may cause DNA damage (controversial). Monitor blood sugar if on diabetes meds.",
     "timingRules": "200-1000mcg daily with meals. Take with carb-containing meals for best effect.",
-    "knownSynergies": ["Berberine", "Alpha-Lipoic Acid", "Cinnamon Extract"]
+    "knownSynergies": [
+      "Berberine",
+      "Alpha-Lipoic Acid",
+      "Cinnamon Extract"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-096",
     "compoundName": "Milk Thistle (Silymarin)",
     "category": "Botanical / Hepatoprotective",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Liver Protection", "Detoxification", "Antioxidant Defense", "Glutathione Support"],
-    "treatsSymptoms": ["Liver Damage", "Hepatotoxicity", "Non-Alcoholic Fatty Liver", "Hangover Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Liver Protection",
+      "Detoxification",
+      "Antioxidant Defense",
+      "Glutathione Support"
+    ],
+    "treatsSymptoms": [
+      "Liver Damage",
+      "Hepatotoxicity",
+      "Non-Alcoholic Fatty Liver",
+      "Hangover Symptoms"
+    ],
     "contraindications": "Estrogenic properties — caution in hormone-sensitive cancers. May interact with CYP substrates.",
     "timingRules": "200-400mg silymarin 2-3x daily. Phytosome form for enhanced absorption.",
-    "knownSynergies": ["N-Acetyl Cysteine (NAC)", "Glutathione (Liposomal)", "Alpha-Lipoic Acid"]
+    "knownSynergies": [
+      "N-Acetyl Cysteine (NAC)",
+      "Glutathione (Liposomal)",
+      "Alpha-Lipoic Acid"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-097",
     "compoundName": "Pregabalin (Low-Dose)",
     "category": "GABAergic / Gabapentinoid",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Anxiety Reduction", "Neuropathic Pain Relief", "Sleep Quality"],
-    "treatsSymptoms": ["Generalized Anxiety", "Neuropathic Pain", "Fibromyalgia", "Insomnia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Anxiety Reduction",
+      "Neuropathic Pain Relief",
+      "Sleep Quality"
+    ],
+    "treatsSymptoms": [
+      "Generalized Anxiety",
+      "Neuropathic Pain",
+      "Fibromyalgia",
+      "Insomnia"
+    ],
     "contraindications": "Dependence potential. CNS depression with alcohol/opioids. Renal dosing required. Never combine with other GABAergic compounds.",
     "timingRules": "Prescription required. Start low, titrate slowly. Split 2-3x daily.",
-    "knownSynergies": ["Magnesium Glycinate", "Palmitoylethanolamide (PEA)"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "Palmitoylethanolamide (PEA)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-098",
     "compoundName": "Oxytocin (Intranasal)",
     "category": "Peptide / Neuropeptide",
     "halfLifeHours": 0.5,
-    "administrationRoute": ["Intranasal"],
-    "supportsGoals": ["Social Bonding", "Anxiety Reduction", "Trust Enhancement", "Emotional Regulation"],
-    "treatsSymptoms": ["Social Anxiety", "Autism Spectrum Symptoms", "PTSD Symptoms", "Attachment Difficulties"],
+    "administrationRoute": [
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Social Bonding",
+      "Anxiety Reduction",
+      "Trust Enhancement",
+      "Emotional Regulation"
+    ],
+    "treatsSymptoms": [
+      "Social Anxiety",
+      "Autism Spectrum Symptoms",
+      "PTSD Symptoms",
+      "Attachment Difficulties"
+    ],
     "contraindications": "May increase in-group bias. Pregnancy (uterotonic). Nasal congestion reduces efficacy.",
     "timingRules": "20-40 IU intranasal 30 min before social situations. Not for daily use.",
-    "knownSynergies": ["Magnesium Glycinate", "L-Theanine"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-099",
     "compoundName": "KSM-66 Ashwagandha",
     "category": "Botanical / Adaptogen",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Stress Reduction", "Strength Gains", "Testosterone Support", "Sleep Quality"],
-    "treatsSymptoms": ["Chronic Stress", "Anxiety", "Low Testosterone", "Poor Athletic Recovery"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Stress Reduction",
+      "Strength Gains",
+      "Testosterone Support",
+      "Sleep Quality"
+    ],
+    "treatsSymptoms": [
+      "Chronic Stress",
+      "Anxiety",
+      "Low Testosterone",
+      "Poor Athletic Recovery"
+    ],
     "contraindications": "Thyroid-stimulating — avoid in hyperthyroidism. Nightshade family — solanaceae allergy. May potentiate sedatives.",
     "timingRules": "600mg full-spectrum extract. AM or PM depending on goal. With food.",
-    "knownSynergies": ["Tongkat Ali (Eurycoma longifolia)", "Magnesium Glycinate", "Rhodiola Rosea"]
+    "knownSynergies": [
+      "Tongkat Ali (Eurycoma longifolia)",
+      "Magnesium Glycinate",
+      "Rhodiola Rosea"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-100",
     "compoundName": "Astragaloside IV",
     "category": "Botanical / Telomerase Activator",
     "halfLifeHours": 12,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Telomere Maintenance", "Immune Support", "Anti-Aging", "Cardiovascular Health"],
-    "treatsSymptoms": ["Immune Weakness", "Accelerated Aging", "Telomere Shortening", "Chronic Fatigue"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Telomere Maintenance",
+      "Immune Support",
+      "Anti-Aging",
+      "Cardiovascular Health"
+    ],
+    "treatsSymptoms": [
+      "Immune Weakness",
+      "Accelerated Aging",
+      "Telomere Shortening",
+      "Chronic Fatigue"
+    ],
     "contraindications": "Autoimmune conditions (immune-stimulating). May interfere with immunosuppressants.",
     "timingRules": "5-50mg daily. Very expensive at pure form. AM dosing preferred.",
-    "knownSynergies": ["Epitalon (Epithalon)", "NAD+ Precursor (NMN)", "Vitamin C (Liposomal)"]
+    "knownSynergies": [
+      "Epitalon (Epithalon)",
+      "NAD+ Precursor (NMN)",
+      "Vitamin C (Liposomal)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-101",
     "compoundName": "9-MBC (9-Methyl-β-carboline)",
     "category": "Nootropic / Dopaminergic",
     "halfLifeHours": 24,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Dopamine Neuron Regeneration", "Cognitive Enhancement", "Neuroprotection", "Tyrosine Hydroxylase Upregulation"],
-    "treatsSymptoms": ["Dopamine Downregulation", "Stimulant Damage Recovery", "Brain Fog", "Anhedonia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Dopamine Neuron Regeneration",
+      "Cognitive Enhancement",
+      "Neuroprotection",
+      "Tyrosine Hydroxylase Upregulation"
+    ],
+    "treatsSymptoms": [
+      "Dopamine Downregulation",
+      "Stimulant Damage Recovery",
+      "Brain Fog",
+      "Anhedonia"
+    ],
     "contraindications": "Photosensitizing — STRICT UV avoidance required (DNA damage risk with sun exposure). Limited human safety data. Possible MAO inhibition — avoid serotonergic drugs. Neurotoxicity concerns at high doses.",
     "timingRules": "5-15mg AM. Cycle 2-4 weeks max. MUST avoid sun/UV exposure during use and 1 week after. Take with fat.",
-    "knownSynergies": ["Uridine Monophosphate", "DHA", "Alpha-GPC"]
+    "knownSynergies": [
+      "Uridine Monophosphate",
+      "DHA",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-102",
     "compoundName": "RGPU-95",
     "category": "Nootropic / Glutamatergic",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cognitive Enhancement", "Memory Formation", "AMPA Modulation", "Learning Speed"],
-    "treatsSymptoms": ["Cognitive Decline", "Memory Impairment", "Brain Fog", "Age-Related Cognitive Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Memory Formation",
+      "AMPA Modulation",
+      "Learning Speed"
+    ],
+    "treatsSymptoms": [
+      "Cognitive Decline",
+      "Memory Impairment",
+      "Brain Fog",
+      "Age-Related Cognitive Decline"
+    ],
     "contraindications": "Experimental compound — minimal human safety data. Potential excitotoxicity at high doses. Seizure risk in predisposed individuals. Avoid with other glutamatergic ampakines.",
     "timingRules": "0.1-1mg oral. AM dosing. Start at lowest effective dose. Cycle 5 days on, 2 off.",
-    "knownSynergies": ["Alpha-GPC", "Noopept", "Bacopa Monnieri"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Noopept",
+      "Bacopa Monnieri"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-103",
     "compoundName": "Bromantane",
     "category": "Nootropic / Actoprotector",
     "halfLifeHours": 11,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Dopamine Upregulation", "Physical Performance", "Anxiolytic Without Sedation", "Motivation"],
-    "treatsSymptoms": ["Fatigue", "Asthenia", "Low Motivation", "Anxiety Without Cognitive Impairment"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Dopamine Upregulation",
+      "Physical Performance",
+      "Anxiolytic Without Sedation",
+      "Motivation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Asthenia",
+      "Low Motivation",
+      "Anxiety Without Cognitive Impairment"
+    ],
     "contraindications": "Limited long-term safety data. May interact with Dopaminergic drugs. Hepatic metabolism — caution with liver impairment. Formerly on WADA banned list.",
     "timingRules": "50-100mg AM with food. Effects build over 2-5 days. Can use daily for 2-4 week cycles.",
-    "knownSynergies": ["Tyrosine", "Alpha-GPC", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "Tyrosine",
+      "Alpha-GPC",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-104",
     "compoundName": "P21 (P021)",
     "category": "Peptide / Neurotrophic",
     "halfLifeHours": 4,
-    "administrationRoute": ["Intranasal", "Oral"],
-    "supportsGoals": ["BDNF Enhancement", "Neurogenesis", "Cognitive Enhancement", "Anti-Neurodegeneration"],
-    "treatsSymptoms": ["Alzheimer's Symptoms", "Cognitive Decline", "Memory Loss", "Neurodegeneration"],
+    "administrationRoute": [
+      "Intranasal",
+      "Oral"
+    ],
+    "supportsGoals": [
+      "BDNF Enhancement",
+      "Neurogenesis",
+      "Cognitive Enhancement",
+      "Anti-Neurodegeneration"
+    ],
+    "treatsSymptoms": [
+      "Alzheimer's Symptoms",
+      "Cognitive Decline",
+      "Memory Loss",
+      "Neurodegeneration"
+    ],
     "contraindications": "Experimental — no FDA approval. Limited human safety data. Theoretical tumor promotion via BDNF pathway.",
     "timingRules": "Intranasal AM. Micro-dose protocol. Cycle 4 weeks on, 2 off.",
-    "knownSynergies": ["Dihexa", "Semax", "Lion's Mane (Hericium erinaceus)"]
+    "knownSynergies": [
+      "Dihexa",
+      "Semax",
+      "Lion's Mane (Hericium erinaceus)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-105",
     "compoundName": "Emoxypine (Mexidol)",
     "category": "Nootropic / Antioxidant",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral", "Intramuscular Injection"],
-    "supportsGoals": ["Neuroprotection", "Antioxidant Defense", "Anxiolytic", "Alcohol Damage Mitigation"],
-    "treatsSymptoms": ["Anxiety", "Oxidative Brain Damage", "Alcohol Withdrawal", "Cognitive Decline"],
+    "administrationRoute": [
+      "Oral",
+      "Intramuscular Injection"
+    ],
+    "supportsGoals": [
+      "Neuroprotection",
+      "Antioxidant Defense",
+      "Anxiolytic",
+      "Alcohol Damage Mitigation"
+    ],
+    "treatsSymptoms": [
+      "Anxiety",
+      "Oxidative Brain Damage",
+      "Alcohol Withdrawal",
+      "Cognitive Decline"
+    ],
     "contraindications": "Hepatic impairment. Limited Western clinical data. May potentiate sedatives.",
     "timingRules": "125-250mg 2-3x daily. Can use for 2-4 week intensive courses.",
-    "knownSynergies": ["Piracetam", "Alpha-Lipoic Acid", "N-Acetyl Cysteine (NAC)"]
+    "knownSynergies": [
+      "Piracetam",
+      "Alpha-Lipoic Acid",
+      "N-Acetyl Cysteine (NAC)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-106",
     "compoundName": "Coluracetam",
     "category": "Nootropic / Racetam",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["High-Affinity Choline Uptake", "Vision Enhancement", "Memory Formation", "Mood Support"],
-    "treatsSymptoms": ["Depression", "Anxiety", "Memory Decline", "Visual Processing Issues"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "High-Affinity Choline Uptake",
+      "Vision Enhancement",
+      "Memory Formation",
+      "Mood Support"
+    ],
+    "treatsSymptoms": [
+      "Depression",
+      "Anxiety",
+      "Memory Decline",
+      "Visual Processing Issues"
+    ],
     "contraindications": "Limited human data. Must co-supplement choline. Headache common without choline source.",
     "timingRules": "5-20mg sublingual 2x daily. Always pair with Alpha-GPC or CDP-Choline.",
-    "knownSynergies": ["Alpha-GPC", "Noopept", "Aniracetam"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Noopept",
+      "Aniracetam"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-107",
     "compoundName": "Fasoracetam",
     "category": "Nootropic / Racetam",
     "halfLifeHours": 5,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["GABA-B Upregulation", "Focus", "Phenibut/GABAergic Withdrawal Aid", "Memory"],
-    "treatsSymptoms": ["ADHD Symptoms", "GABAergic Tolerance", "Brain Fog", "Anxiety"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "GABA-B Upregulation",
+      "Focus",
+      "Phenibut/GABAergic Withdrawal Aid",
+      "Memory"
+    ],
+    "treatsSymptoms": [
+      "ADHD Symptoms",
+      "GABAergic Tolerance",
+      "Brain Fog",
+      "Anxiety"
+    ],
     "contraindications": "Limited human data outside clinical trials. May alter GABA sensitivity. Caution with GABAergic drugs.",
     "timingRules": "10-20mg sublingual 2x daily. Often used to restore GABA-B receptor density after Phenibut use.",
-    "knownSynergies": ["Alpha-GPC", "Coluracetam", "Magnesium Glycinate"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Coluracetam",
+      "Magnesium Glycinate"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-108",
     "compoundName": "Unifiram",
     "category": "Nootropic / Ampakine",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Cognitive Enhancement", "Memory Formation", "AMPA Modulation", "Focus"],
-    "treatsSymptoms": ["Memory Impairment", "Cognitive Fatigue", "Brain Fog", "Learning Difficulties"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Memory Formation",
+      "AMPA Modulation",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "Memory Impairment",
+      "Cognitive Fatigue",
+      "Brain Fog",
+      "Learning Difficulties"
+    ],
     "contraindications": "Extremely potent — active at sub-milligram doses. Seizure risk. Excitotoxicity concern. No human clinical trials. Avoid with other ampakines.",
     "timingRules": "2-5mg sublingual. Do not exceed 10mg/day. Short cycles only. Precise dosing critical.",
-    "knownSynergies": ["Alpha-GPC", "Piracetam", "Bacopa Monnieri"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Piracetam",
+      "Bacopa Monnieri"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-109",
     "compoundName": "Sunifiram",
     "category": "Nootropic / Ampakine",
     "halfLifeHours": 2,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Cognitive Enhancement", "LTP Enhancement", "Memory Formation", "AMPA Modulation"],
-    "treatsSymptoms": ["Memory Decline", "Brain Fog", "Cognitive Impairment", "Learning Deficits"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "LTP Enhancement",
+      "Memory Formation",
+      "AMPA Modulation"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Brain Fog",
+      "Cognitive Impairment",
+      "Learning Deficits"
+    ],
     "contraindications": "Sub-milligram dosing — extremely potent. Seizure risk. Excitotoxicity at high doses. No human trials. Avoid stacking with other ampakines.",
     "timingRules": "4-8mg sublingual. Active at very low doses. Do not redose same day.",
-    "knownSynergies": ["Alpha-GPC", "Aniracetam", "Bacopa Monnieri"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "Aniracetam",
+      "Bacopa Monnieri"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-110",
     "compoundName": "J-147",
     "category": "Nootropic / Curcumin-Derived",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Neuroprotection", "Anti-Aging", "Mitochondrial Function", "Cognitive Enhancement"],
-    "treatsSymptoms": ["Alzheimer's Symptoms", "Cognitive Decline", "Mitochondrial Dysfunction", "Neurodegeneration"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Neuroprotection",
+      "Anti-Aging",
+      "Mitochondrial Function",
+      "Cognitive Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Alzheimer's Symptoms",
+      "Cognitive Decline",
+      "Mitochondrial Dysfunction",
+      "Neurodegeneration"
+    ],
     "contraindications": "Experimental — Phase 1 trials only. ATP synthase inhibitor mechanism. Cancer cell effects unknown. Not for casual use.",
     "timingRules": "5-10mg oral AM. Very limited dosing data. Short cycles with monitoring.",
-    "knownSynergies": ["NAD+ Precursor (NMN)", "CoQ10 (Ubiquinol)", "Methylene Blue"]
+    "knownSynergies": [
+      "NAD+ Precursor (NMN)",
+      "CoQ10 (Ubiquinol)",
+      "Methylene Blue"
+    ],
+    "confidenceScore": "Low",
+    "citation": "pending"
   },
   {
     "id": "cpd-111",
     "compoundName": "NA-Selank (N-Acetyl Selank)",
     "category": "Peptide / Anxiolytic",
     "halfLifeHours": 2,
-    "administrationRoute": ["Intranasal", "Subcutaneous Injection"],
-    "supportsGoals": ["Anxiety Reduction", "Immune Modulation", "BDNF Enhancement", "Cognitive Clarity"],
-    "treatsSymptoms": ["Generalized Anxiety", "Immune Dysfunction", "Brain Fog", "Stress-Induced Cognitive Decline"],
+    "administrationRoute": [
+      "Intranasal",
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Anxiety Reduction",
+      "Immune Modulation",
+      "BDNF Enhancement",
+      "Cognitive Clarity"
+    ],
+    "treatsSymptoms": [
+      "Generalized Anxiety",
+      "Immune Dysfunction",
+      "Brain Fog",
+      "Stress-Induced Cognitive Decline"
+    ],
     "contraindications": "Acetylated form — longer acting than Selank. Avoid with benzodiazepines. Pregnancy contraindicated.",
     "timingRules": "Intranasal 200-600mcg 1-2x daily. Longer duration than standard Selank.",
-    "knownSynergies": ["Semax", "NA-Semax", "L-Theanine"]
+    "knownSynergies": [
+      "Semax",
+      "NA-Semax",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-112",
     "compoundName": "NA-Semax (N-Acetyl Semax)",
     "category": "Peptide / Nootropic",
     "halfLifeHours": 3,
-    "administrationRoute": ["Intranasal"],
-    "supportsGoals": ["BDNF Upregulation", "Cognitive Enhancement", "Neuroprotection", "Focus"],
-    "treatsSymptoms": ["Brain Fog", "ADHD Symptoms", "Cognitive Decline", "Neurodegeneration"],
+    "administrationRoute": [
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "BDNF Upregulation",
+      "Cognitive Enhancement",
+      "Neuroprotection",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "ADHD Symptoms",
+      "Cognitive Decline",
+      "Neurodegeneration"
+    ],
     "contraindications": "More potent than standard Semax. Avoid in acute psychosis. Anxiety possible at higher doses.",
     "timingRules": "Intranasal 100-600mcg AM. Start low — significantly more potent than Semax.",
-    "knownSynergies": ["NA-Selank (N-Acetyl Selank)", "Alpha-GPC", "Noopept"]
+    "knownSynergies": [
+      "NA-Selank (N-Acetyl Selank)",
+      "Alpha-GPC",
+      "Noopept"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-113",
     "compoundName": "Adamax (Semax + Adamantane)",
     "category": "Peptide / Nootropic",
     "halfLifeHours": 4,
-    "administrationRoute": ["Intranasal"],
-    "supportsGoals": ["Cognitive Enhancement", "BDNF Upregulation", "Dopamine Modulation", "Neuroprotection"],
-    "treatsSymptoms": ["Severe Brain Fog", "Cognitive Decline", "ADHD Symptoms", "Neurodegeneration"],
+    "administrationRoute": [
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "BDNF Upregulation",
+      "Dopamine Modulation",
+      "Neuroprotection"
+    ],
+    "treatsSymptoms": [
+      "Severe Brain Fog",
+      "Cognitive Decline",
+      "ADHD Symptoms",
+      "Neurodegeneration"
+    ],
     "contraindications": "Most potent Semax variant. Limited safety data. May cause overstimulation. Avoid with psychosis history.",
     "timingRules": "Intranasal 100-300mcg AM only. Very potent — start at minimum dose.",
-    "knownSynergies": ["Selank", "Alpha-GPC", "Bromantane"]
+    "knownSynergies": [
+      "Selank",
+      "Alpha-GPC",
+      "Bromantane"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-114",
     "compoundName": "DSIP (Delta Sleep-Inducing Peptide)",
     "category": "Peptide / Sleep",
     "halfLifeHours": 0.25,
-    "administrationRoute": ["Subcutaneous Injection", "Intranasal"],
-    "supportsGoals": ["Deep Sleep Enhancement", "Pain Modulation", "Stress Reduction", "Circadian Repair"],
-    "treatsSymptoms": ["Insomnia", "Disrupted Sleep Architecture", "Chronic Pain", "Withdrawal Symptoms"],
+    "administrationRoute": [
+      "Subcutaneous Injection",
+      "Intranasal"
+    ],
+    "supportsGoals": [
+      "Deep Sleep Enhancement",
+      "Pain Modulation",
+      "Stress Reduction",
+      "Circadian Repair"
+    ],
+    "treatsSymptoms": [
+      "Insomnia",
+      "Disrupted Sleep Architecture",
+      "Chronic Pain",
+      "Withdrawal Symptoms"
+    ],
     "contraindications": "Extremely short half-life. Variable individual response. Limited clinical data. Avoid with CNS depressants.",
     "timingRules": "100-300mcg SC 30 min before bed. Effects vary widely between individuals.",
-    "knownSynergies": ["Melatonin", "Magnesium Glycinate", "Glycine"]
+    "knownSynergies": [
+      "Melatonin",
+      "Magnesium Glycinate",
+      "Glycine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-115",
     "compoundName": "KPV (Tripeptide)",
     "category": "Peptide / Anti-Inflammatory",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral", "Subcutaneous Injection", "Topical"],
-    "supportsGoals": ["Gut Inflammation Reduction", "Anti-Inflammatory", "Immune Modulation", "Skin Healing"],
-    "treatsSymptoms": ["IBD Symptoms", "Gut Inflammation", "Colitis", "Inflammatory Skin Conditions"],
+    "administrationRoute": [
+      "Oral",
+      "Subcutaneous Injection",
+      "Topical"
+    ],
+    "supportsGoals": [
+      "Gut Inflammation Reduction",
+      "Anti-Inflammatory",
+      "Immune Modulation",
+      "Skin Healing"
+    ],
+    "treatsSymptoms": [
+      "IBD Symptoms",
+      "Gut Inflammation",
+      "Colitis",
+      "Inflammatory Skin Conditions"
+    ],
     "contraindications": "Limited human data. Derived from alpha-MSH — theoretical melanocyte effects. Avoid in active melanoma.",
     "timingRules": "Oral: 200-500mcg with meals for gut. SC: 200-500mcg daily for systemic effect.",
-    "knownSynergies": ["BPC-157", "Glutathione (Liposomal)", "Curcumin (BCM-95 or Longvida)"]
+    "knownSynergies": [
+      "BPC-157",
+      "Glutathione (Liposomal)",
+      "Curcumin (BCM-95 or Longvida)"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-116",
     "compoundName": "Larazotide Acetate",
     "category": "Peptide / Gut Barrier",
     "halfLifeHours": 1,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Gut Barrier Repair", "Tight Junction Restoration", "Leaky Gut Treatment", "Autoimmune Support"],
-    "treatsSymptoms": ["Leaky Gut", "Celiac Disease Symptoms", "Intestinal Permeability", "Food Sensitivities"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Gut Barrier Repair",
+      "Tight Junction Restoration",
+      "Leaky Gut Treatment",
+      "Autoimmune Support"
+    ],
+    "treatsSymptoms": [
+      "Leaky Gut",
+      "Celiac Disease Symptoms",
+      "Intestinal Permeability",
+      "Food Sensitivities"
+    ],
     "contraindications": "In clinical trials for celiac — not yet approved. Limited off-label safety data.",
     "timingRules": "0.5-1mg 3x daily before meals. Acts locally in gut — minimal systemic absorption.",
-    "knownSynergies": ["BPC-157", "Collagen Peptides (Type I/III)", "L-Glutamine"]
+    "knownSynergies": [
+      "BPC-157",
+      "Collagen Peptides (Type I/III)",
+      "L-Glutamine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-117",
     "compoundName": "Tianeptine",
     "category": "Nootropic / Atypical Antidepressant",
     "halfLifeHours": 3,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Mood Enhancement", "Neuroplasticity", "Anxiety Reduction", "Cognitive Enhancement"],
-    "treatsSymptoms": ["Depression", "Anxiety", "IBS Symptoms", "Asthma"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Mood Enhancement",
+      "Neuroplasticity",
+      "Anxiety Reduction",
+      "Cognitive Enhancement"
+    ],
+    "treatsSymptoms": [
+      "Depression",
+      "Anxiety",
+      "IBS Symptoms",
+      "Asthma"
+    ],
     "contraindications": "ABUSE POTENTIAL at high doses (mu-opioid agonist). Respiratory depression risk with overdose. Withdrawal syndrome. Banned/scheduled in several US states. Never exceed therapeutic dose.",
     "timingRules": "12.5mg 3x daily (Stablon dosing). NEVER exceed 37.5mg/day. Strict dosing discipline required.",
-    "knownSynergies": ["Magnesium Glycinate", "Omega-3 (EPA/DHA)", "L-Theanine"]
+    "knownSynergies": [
+      "Magnesium Glycinate",
+      "Omega-3 (EPA/DHA)",
+      "L-Theanine"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-118",
     "compoundName": "TAK-653 (Analog)",
     "category": "Nootropic / AMPA Modulator",
     "halfLifeHours": 8,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cognitive Enhancement", "Antidepressant", "Synaptic Plasticity", "AMPA Potentiation"],
-    "treatsSymptoms": ["Treatment-Resistant Depression", "Cognitive Decline", "Memory Impairment", "Anhedonia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "Antidepressant",
+      "Synaptic Plasticity",
+      "AMPA Potentiation"
+    ],
+    "treatsSymptoms": [
+      "Treatment-Resistant Depression",
+      "Cognitive Decline",
+      "Memory Impairment",
+      "Anhedonia"
+    ],
     "contraindications": "Experimental — clinical trial compound. Seizure threshold concerns. No established safety profile for off-label use.",
     "timingRules": "Research dosing only. Sub-milligram to low milligram range. AM dosing.",
-    "knownSynergies": ["Alpha-GPC", "DHA", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "Alpha-GPC",
+      "DHA",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-119",
     "compoundName": "Armodafinil",
     "category": "Eugeroic",
     "halfLifeHours": 15,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Wakefulness", "Cognitive Enhancement", "Focus", "Executive Function"],
-    "treatsSymptoms": ["Excessive Daytime Sleepiness", "Narcolepsy", "Shift Work Disorder", "ADHD Symptoms"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Wakefulness",
+      "Cognitive Enhancement",
+      "Focus",
+      "Executive Function"
+    ],
+    "treatsSymptoms": [
+      "Excessive Daytime Sleepiness",
+      "Narcolepsy",
+      "Shift Work Disorder",
+      "ADHD Symptoms"
+    ],
     "contraindications": "MAOI interaction — hypertensive crisis risk. Cardiovascular disease. Reduces oral contraceptive efficacy. R-enantiomer of Modafinil — more sustained than Modafinil.",
     "timingRules": "150mg within 1 hour of waking. Do not take after 10 AM (longer-acting than Modafinil).",
-    "knownSynergies": ["L-Theanine", "Alpha-GPC", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Alpha-GPC",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-120",
     "compoundName": "Flmodafinil (CRL-40,940)",
     "category": "Eugeroic",
     "halfLifeHours": 18,
-    "administrationRoute": ["Oral", "Sublingual"],
-    "supportsGoals": ["Wakefulness", "Focus", "Cognitive Enhancement", "Dopamine/Norepinephrine Modulation"],
-    "treatsSymptoms": ["Fatigue", "Brain Fog", "Excessive Sleepiness", "ADHD Symptoms"],
+    "administrationRoute": [
+      "Oral",
+      "Sublingual"
+    ],
+    "supportsGoals": [
+      "Wakefulness",
+      "Focus",
+      "Cognitive Enhancement",
+      "Dopamine/Norepinephrine Modulation"
+    ],
+    "treatsSymptoms": [
+      "Fatigue",
+      "Brain Fog",
+      "Excessive Sleepiness",
+      "ADHD Symptoms"
+    ],
     "contraindications": "Bisfluoro-modafinil — more potent than Modafinil. MAOI interaction risk. No FDA approval. Limited safety data. Cardiovascular caution.",
     "timingRules": "50-100mg AM sublingual. Lower dose than Modafinil due to higher potency. No PM dosing.",
-    "knownSynergies": ["L-Theanine", "Alpha-GPC", "Magnesium L-Threonate"]
+    "knownSynergies": [
+      "L-Theanine",
+      "Alpha-GPC",
+      "Magnesium L-Threonate"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-121",
     "compoundName": "Polygala Tenuifolia",
     "category": "Botanical / Nootropic",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Cognitive Enhancement", "BDNF Support", "Mood Enhancement", "Dopamine Modulation"],
-    "treatsSymptoms": ["Brain Fog", "Depression", "Memory Decline", "Anxiety"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Cognitive Enhancement",
+      "BDNF Support",
+      "Mood Enhancement",
+      "Dopamine Modulation"
+    ],
+    "treatsSymptoms": [
+      "Brain Fog",
+      "Depression",
+      "Memory Decline",
+      "Anxiety"
+    ],
     "contraindications": "GI upset at higher doses. May interact with sedatives. Pregnancy data lacking.",
     "timingRules": "100-300mg standardized extract AM. Can split AM/PM for mood support.",
-    "knownSynergies": ["Lion's Mane (Hericium erinaceus)", "Bacopa Monnieri", "Alpha-GPC"]
+    "knownSynergies": [
+      "Lion's Mane (Hericium erinaceus)",
+      "Bacopa Monnieri",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-122",
     "compoundName": "PPAP (Phenylpropylaminopentane)",
     "category": "Nootropic / Catecholaminergic",
     "halfLifeHours": 6,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Catecholamine Activity Enhancement", "Dopamine Modulation", "Mood Enhancement", "Motivation"],
-    "treatsSymptoms": ["Low Motivation", "Depressive Symptoms", "Fatigue", "Anhedonia"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Catecholamine Activity Enhancement",
+      "Dopamine Modulation",
+      "Mood Enhancement",
+      "Motivation"
+    ],
+    "treatsSymptoms": [
+      "Low Motivation",
+      "Depressive Symptoms",
+      "Fatigue",
+      "Anhedonia"
+    ],
     "contraindications": "Catecholaminergic enhancer — avoid with MAOIs and stimulants. Hypertension risk. Very limited human data.",
     "timingRules": "0.5-2mg AM. Very potent — start low. Cycle 5 days on, 2 off.",
-    "knownSynergies": ["Bromantane", "Tyrosine", "Alpha-GPC"]
+    "knownSynergies": [
+      "Bromantane",
+      "Tyrosine",
+      "Alpha-GPC"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-123",
     "compoundName": "CDP-Choline (Citicoline)",
     "category": "Nootropic / Cholinergic",
     "halfLifeHours": 56,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Acetylcholine Support", "Phosphatidylcholine Synthesis", "Neuroprotection", "Focus"],
-    "treatsSymptoms": ["Memory Decline", "Brain Fog", "Stroke Recovery", "Age-Related Cognitive Decline"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Acetylcholine Support",
+      "Phosphatidylcholine Synthesis",
+      "Neuroprotection",
+      "Focus"
+    ],
+    "treatsSymptoms": [
+      "Memory Decline",
+      "Brain Fog",
+      "Stroke Recovery",
+      "Age-Related Cognitive Decline"
+    ],
     "contraindications": "Generally very well tolerated. Rare headache or GI upset. Caution with acetylcholinesterase inhibitors.",
     "timingRules": "250-500mg 1-2x daily. Can use as choline source for racetam stacks.",
-    "knownSynergies": ["Piracetam", "Aniracetam", "Uridine Monophosphate", "DHA"]
+    "knownSynergies": [
+      "Piracetam",
+      "Aniracetam",
+      "Uridine Monophosphate",
+      "DHA"
+    ],
+    "confidenceScore": "High",
+    "citation": "pending"
   },
   {
     "id": "cpd-124",
     "compoundName": "GW501516 (Cardarine)",
     "category": "PPARδ Agonist / Performance",
     "halfLifeHours": 20,
-    "administrationRoute": ["Oral"],
-    "supportsGoals": ["Endurance Enhancement", "Fat Oxidation", "Metabolic Flexibility", "Cardiovascular Performance"],
-    "treatsSymptoms": ["Poor Endurance", "Metabolic Syndrome", "Dyslipidemia", "Obesity"],
+    "administrationRoute": [
+      "Oral"
+    ],
+    "supportsGoals": [
+      "Endurance Enhancement",
+      "Fat Oxidation",
+      "Metabolic Flexibility",
+      "Cardiovascular Performance"
+    ],
+    "treatsSymptoms": [
+      "Poor Endurance",
+      "Metabolic Syndrome",
+      "Dyslipidemia",
+      "Obesity"
+    ],
     "contraindications": "CRITICAL: Cancer promotion in animal studies at high chronic doses. Not approved for human use. Banned by WADA. Long-term safety completely unknown.",
     "timingRules": "10-20mg daily. Short cycles only (4-8 weeks max). Monitor bloodwork.",
-    "knownSynergies": ["Cordyceps Militaris", "CoQ10 (Ubiquinol)", "Citrulline Malate"]
+    "knownSynergies": [
+      "Cordyceps Militaris",
+      "CoQ10 (Ubiquinol)",
+      "Citrulline Malate"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   },
   {
     "id": "cpd-125",
     "compoundName": "SR9009 (Stenabolic)",
     "category": "Rev-ErbA Agonist / Metabolic",
     "halfLifeHours": 4,
-    "administrationRoute": ["Oral", "Subcutaneous Injection"],
-    "supportsGoals": ["Circadian Regulation", "Fat Loss", "Endurance", "Mitochondrial Biogenesis"],
-    "treatsSymptoms": ["Metabolic Dysfunction", "Poor Endurance", "Circadian Disruption", "Obesity"],
+    "administrationRoute": [
+      "Oral",
+      "Subcutaneous Injection"
+    ],
+    "supportsGoals": [
+      "Circadian Regulation",
+      "Fat Loss",
+      "Endurance",
+      "Mitochondrial Biogenesis"
+    ],
+    "treatsSymptoms": [
+      "Metabolic Dysfunction",
+      "Poor Endurance",
+      "Circadian Disruption",
+      "Obesity"
+    ],
     "contraindications": "Extremely poor oral bioavailability (~2%). Injectable form preferred but unregulated. No human clinical trials. Not FDA approved.",
     "timingRules": "20-30mg oral split 3-4x daily (poor bioavailability) or 10-20mg SC. Short cycles.",
-    "knownSynergies": ["GW501516 (Cardarine)", "NAD+ Precursor (NMN)", "Cordyceps Militaris"]
+    "knownSynergies": [
+      "GW501516 (Cardarine)",
+      "NAD+ Precursor (NMN)",
+      "Cordyceps Militaris"
+    ],
+    "confidenceScore": "Medium",
+    "citation": "pending"
   }
 ]

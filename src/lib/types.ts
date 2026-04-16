@@ -1,3 +1,5 @@
+export type ConfidenceScore = "High" | "Medium" | "Low";
+
 export interface Compound {
   id: string;
   compoundName: string;
@@ -9,6 +11,8 @@ export interface Compound {
   contraindications: string;
   timingRules: string;
   knownSynergies: string[];
+  confidenceScore: ConfidenceScore;
+  citation: string;
 }
 
 export interface StackAlert {
