@@ -1,11 +1,15 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import compounds from "../../lib/data.json";
 import { Compound, StackAlert } from "@/lib/types";
 import { analyzeStack } from "@/lib/safety-engine";
 
 const allCompounds = compounds as Compound[];
+
+// ─── LocalStorage keys ──────────────────────────────────────────────
+const STACK_STORAGE_KEY = "biohacker-os:stack";
+const DISCLAIMER_STORAGE_KEY = "biohacker-os:disclaimer-accepted";
 
 // Extract unique goals and symptoms
 const allGoals = Array.from(
@@ -372,6 +376,82 @@ function AlertBanner({ alert }: { alert: StackAlert }) {
   );
 }
 
+// ─── Medical Disclaimer Modal ───────────────────────────────────────
+function DisclaimerModal({ onAgree }: { onAgree: () => void }) {
+  return (
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="disclaimer-title"
+    >
+      <div className="absolute inset-0 bg-black/90 backdrop-blur-md" />
+      <div className="relative bg-[#0d0d0d] border border-red-500/40 rounded-xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 glow-red-subtle">
+        {/* Scanline header bar */}
+        <div className="flex items-center gap-2 mb-5 pb-3 border-b border-red-500/20">
+          <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+          <span className="text-[10px] font-mono uppercase tracking-[0.25em] text-red-400">
+            Operator Acknowledgment Required
+          </span>
+        </div>
+
+        <h2
+          id="disclaimer-title"
+          className="text-xl sm:text-2xl font-bold tracking-tight text-[#e8e8e8] mb-1"
+        >
+          Informational Use Only
+        </h2>
+        <p className="text-[11px] font-mono uppercase tracking-widest text-[#666] mb-5">
+          BIOHACKER OS · Stack Safety Engine
+        </p>
+
+        <div className="space-y-3 text-sm text-[#bbb] leading-relaxed">
+          <p>
+            Biohacker OS is a research and reference tool. The compound data,
+            interaction flags, synergies, and stack analyses shown here are{" "}
+            <span className="text-[#e8e8e8] font-semibold">
+              for informational purposes only
+            </span>{" "}
+            and do not constitute medical advice, diagnosis, or treatment.
+          </p>
+
+          <p>
+            Nothing on this site establishes a doctor-patient relationship.
+            Compounds listed are not evaluated by the FDA, and many are
+            research chemicals, investigational, or restricted to specific
+            jurisdictions. Use, acquisition, and dosing are your responsibility.
+          </p>
+
+          <p>
+            Clash detection is rule-based and{" "}
+            <span className="text-red-400 font-semibold">
+              not exhaustive
+            </span>
+            . The absence of an alert does not mean a combination is safe.
+            Individual pharmacogenetics, existing conditions, and co-administered
+            medications will affect outcomes in ways this engine cannot model.
+          </p>
+
+          <p className="text-[#888] text-xs italic pt-1">
+            By clicking &ldquo;I Agree&rdquo; you confirm you understand these
+            terms and accept full responsibility for any decisions made using
+            this tool.
+          </p>
+        </div>
+
+        <div className="mt-6 pt-5 border-t border-[#222] flex flex-col sm:flex-row gap-2 sm:justify-end">
+          <button
+            onClick={onAgree}
+            className="px-6 py-3 bg-sky-500/15 hover:bg-sky-500/25 border border-sky-500/50 hover:border-sky-500 text-sky-400 text-sm font-mono font-semibold uppercase tracking-widest rounded-lg transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-sky-500/40"
+          >
+            I Agree — Proceed
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─── Main Page ──────────────────────────────────────────────────────
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -382,6 +462,60 @@ export default function Home() {
   const [showStackPanel, setShowStackPanel] = useState(false);
   const [showGoals, setShowGoals] = useState(false);
   const [showSymptoms, setShowSymptoms] = useState(false);
+
+  // Hydration + disclaimer state (client-only to avoid SSR mismatch)
+  const [hydrated, setHydrated] = useState(false);
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
+
+  // ─── Hydrate from localStorage on mount ───────────────────────────
+  useEffect(() => {
+    try {
+      // Restore active stack
+      const raw = window.localStorage.getItem(STACK_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          // Only keep ids that still exist in the dataset
+          const validIds = new Set(allCompounds.map((c) => c.id));
+          const restored = parsed.filter(
+            (id): id is string => typeof id === "string" && validIds.has(id)
+          );
+          if (restored.length > 0) setStack(new Set(restored));
+        }
+      }
+
+      // Disclaimer gate
+      const agreed = window.localStorage.getItem(DISCLAIMER_STORAGE_KEY);
+      if (agreed !== "true") setShowDisclaimer(true);
+    } catch {
+      // localStorage unavailable (private mode, disabled, etc.) — fail open
+      setShowDisclaimer(true);
+    } finally {
+      setHydrated(true);
+    }
+  }, []);
+
+  // ─── Persist stack to localStorage on change ──────────────────────
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      window.localStorage.setItem(
+        STACK_STORAGE_KEY,
+        JSON.stringify(Array.from(stack))
+      );
+    } catch {
+      // Ignore write failures (quota, private mode)
+    }
+  }, [stack, hydrated]);
+
+  const acceptDisclaimer = useCallback(() => {
+    try {
+      window.localStorage.setItem(DISCLAIMER_STORAGE_KEY, "true");
+    } catch {
+      // Ignore — still dismiss for this session
+    }
+    setShowDisclaimer(false);
+  }, []);
 
   // Filter compounds
   const filtered = useMemo(() => {
@@ -725,6 +859,11 @@ export default function Home() {
           compound={expandedCompound}
           onClose={() => setExpandedCompound(null)}
         />
+      )}
+
+      {/* ─── First-visit Medical Disclaimer ─── */}
+      {hydrated && showDisclaimer && (
+        <DisclaimerModal onAgree={acceptDisclaimer} />
       )}
     </div>
   );

@@ -64,3 +64,11 @@ body {
 .animate-pulse-blue {
   animation: pulse-blue 2s ease-in-out infinite;
 }
+
+/* Subtle red glow for the disclaimer modal — presence without drama */
+.glow-red-subtle {
+  box-shadow:
+    0 0 40px rgba(239, 68, 68, 0.08),
+    0 0 80px rgba(239, 68, 68, 0.04),
+    inset 0 0 1px rgba(239, 68, 68, 0.1);
+}
